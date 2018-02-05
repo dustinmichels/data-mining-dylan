@@ -1,7 +1,9 @@
 # data-mining-dylan
+
 Some code for scraping Dylan lyrics, and quantifying references to places.
 
 # How it works #
+
 The "scrape_lyrics.py" file scrapes lyrics from BobDylan.com, using Requests and
 Beautiful Soup. It uses the Song class contained in "song.py." It writes the songs
 it scrapes to text files and also to a pickled file, called "songs.p"
