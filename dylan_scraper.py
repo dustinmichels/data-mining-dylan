@@ -74,5 +74,5 @@ if __name__ == "__main__":
     song_urls = get_song_urls()
     songs = [get_song_data(url) for url in song_urls]
 
-    with open('songs.json', 'w') as f:
+    with open('data/songs.json', 'w') as f:
         json.dump(songs, f)
