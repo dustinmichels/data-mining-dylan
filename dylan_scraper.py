@@ -2,10 +2,9 @@ import json
 import requests
 import re
 from bs4 import BeautifulSoup
-from typing import Callable
 
 
-def get_song_urls() -> list:
+def get_song_urls():
     """Returns list of URLs to every song"""
     page = requests.get("https://bobdylan.com/songs/")
     soup = BeautifulSoup(page.content, 'html.parser')
@@ -14,7 +13,7 @@ def get_song_urls() -> list:
         for s in soup.find_all(class_='song')[1:]])
 
 
-def get_album_urls() -> list:
+def get_album_urls():
     """Returns list of URLs to every album"""
     page = requests.get('https://bobdylan.com/albums/')
     soup = BeautifulSoup(page.content, 'html.parser')
@@ -23,7 +22,7 @@ def get_album_urls() -> list:
         for x in soup.find_all('h3')])
 
 
-def safe_parse(func: Callable) -> str:
+def safe_parse(func):
     """Catches parsing errors"""
     try:
         return func()
@@ -32,11 +31,13 @@ def safe_parse(func: Callable) -> str:
         return ''
 
 
-def get_song_data(song_url) -> dict:
+def get_song_data(song_url):
     """Returns dictionary of given song"""
 
     page = requests.get(song_url)
     soup = BeautifulSoup(page.content, 'html.parser')
+    not_lyrics = ("Click the 'VIEW ALL' link at the right to see a list "
+                  "of Bob Dylan's live performances of this song.")
 
     # Title
     title = safe_parse(
@@ -54,6 +55,7 @@ def get_song_data(song_url) -> dict:
         lambda: (soup.find(class_='lyrics')
                  .get_text()
                  .replace('\t', '').strip()
+                 .replace(not_lyrics, '')
                  .split('Copyright ©')[0]))
 
     # Albums
