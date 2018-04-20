@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def tidy_table(df, listy_cols):
     """Shape df with list-containing cells into 'tidy' format"""
     for listy_col in listy_cols:
