@@ -1,0 +1,13 @@
+#mapWidget {
+    border: solid black 2px;
+}
+
+#map {
+    height: 250px;
+    border: solid grey 1px;
+}
+
+#info {
+    height: 250px;
+    border: solid grey 1px;
+}

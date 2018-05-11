@@ -1,0 +1,1962 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98001693,
+          40.74997906
+        ]
+      },
+      "properties": {
+        "name": "New York",
+        "songs": [
+          "Hard Times In New York Town",
+          "I Shall Be Free No. 10",
+          "Joey",
+          "Just Like Tom Thumb’s Blues",
+          "Talkin’ New York",
+          "This Land Is Your Land"
+        ],
+        "cnt": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.03996688,
+          29.99500246
+        ]
+      },
+      "properties": {
+        "name": "New Orleans",
+        "songs": [
+          "Blind Willie McTell",
+          "Bob Dylan’s New Orleans Rag",
+          "House Of the Risin’ Sun",
+          "Rambling, Gambling Willie",
+          "Tangled Up In Blue",
+          "Tryin’ To Get To Heaven"
+        ],
+        "cnt": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.99999516,
+          35.11998679999999
+        ]
+      },
+      "properties": {
+        "name": "Memphis",
+        "songs": [
+          "Gypsy Lou",
+          "Kingsport Town",
+          "Someone’s Got A Hold Of My Heart",
+          "Stuck Inside Of Mobile With The Memphis Blues Again",
+          "Tight Connection To My Heart  (Has Anyone Seen My Love)"
+        ],
+        "cnt": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.5099952,
+          31.77998395
+        ]
+      },
+      "properties": {
+        "name": "El Paso",
+        "songs": [
+          "Billy 1",
+          "Billy 4",
+          "She’s Your Lover Now",
+          "Wanted Man"
+        ],
+        "cnt": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.68000086,
+          40.81997479
+        ]
+      },
+      "properties": {
+        "name": "Lincoln",
+        "songs": [
+          "Long Ago, Far Away",
+          "Senor (Tales Of Yankee Power)",
+          "Talkin’ John Birch Paranoid Blues",
+          "Talkin’ World War III Blues"
+        ],
+        "cnt": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.116721844,
+          51.49999473
+        ]
+      },
+      "properties": {
+        "name": "London",
+        "songs": [
+          "Jack-A-Roe",
+          "Not Dark Yet",
+          "Something’s Burning, Baby",
+          "T.V. Talkin’ Song"
+        ],
+        "cnt": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.18499679,
+          32.29881533
+        ]
+      },
+      "properties": {
+        "name": "Jackson",
+        "songs": [
+          "Catfish",
+          "George Jackson",
+          "Outlaw Blues",
+          "Rambling, Gambling Willie"
+        ],
+        "cnt": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4599777,
+          37.74000775
+        ]
+      },
+      "properties": {
+        "name": "San Francisco",
+        "songs": [
+          "California",
+          "Maybe Someday",
+          "She’s Your Lover Now",
+          "You’re Gonna Make Me Lonesome When You Go"
+        ],
+        "cnt": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.45004024,
+          -33.95003497
+        ]
+      },
+      "properties": {
+        "name": "George",
+        "songs": [
+          "George Jackson",
+          "High Water (For Charley Patton)",
+          "Talkin’ John Birch Paranoid Blues"
+        ],
+        "cnt": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.48325842,
+          41.89595563
+        ]
+      },
+      "properties": {
+        "name": "Rome",
+        "songs": [
+          "Neighborhood Bully",
+          "When I Paint My Masterpiece"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.80002975,
+          -37.66551878
+        ]
+      },
+      "properties": {
+        "name": "Juarez",
+        "songs": [
+          "Just Like Tom Thumb’s Blues",
+          "Wanted Man"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.75005497,
+          41.82999066
+        ]
+      },
+      "properties": {
+        "name": "Chicago",
+        "songs": [
+          "Cold Irons Bound",
+          "The Death Of Emmett Till"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.984016,
+          39.73918805
+        ]
+      },
+      "properties": {
+        "name": "Denver",
+        "songs": [
+          "Cry A While",
+          "Gypsy Lou"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.32998702,
+          37.71998313
+        ]
+      },
+      "properties": {
+        "name": "Wichita",
+        "songs": [
+          "Gypsy Lou",
+          "Yea! Heavy And A Bottle Of Bread"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.21499845,
+          -34.09900201
+        ]
+      },
+      "properties": {
+        "name": "Florida",
+        "songs": [
+          "Dusty Old Fairgrounds",
+          "Po’ Boy"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.20662593,
+          31.77840782
+        ]
+      },
+      "properties": {
+        "name": "Jerusalem",
+        "songs": [
+          "Angelina",
+          "Blind Willie McTell"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.60409422,
+          39.10708851
+        ]
+      },
+      "properties": {
+        "name": "Kansas City",
+        "songs": [
+          "High Water (For Charley Patton)",
+          "Wanted Man"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.28003422,
+          30.44998761
+        ]
+      },
+      "properties": {
+        "name": "Tallahassee",
+        "songs": [
+          "Got My Mind Made Up",
+          "Wanted Man"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69000126,
+          -31.62387205
+        ]
+      },
+      "properties": {
+        "name": "Santa Fe",
+        "songs": [
+          "Billy 4",
+          "Santa Fé"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.41360844,
+          44.25121238
+        ]
+      },
+      "properties": {
+        "name": "Cadillac",
+        "songs": [
+          "Summer Days",
+          "Talkin’ World War III Blues"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.23700161,
+          43.41400203
+        ]
+      },
+      "properties": {
+        "name": "Montana",
+        "songs": [
+          "Dusty Old Fairgrounds",
+          "Three Angels"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.200024372000001,
+          48.68368085
+        ]
+      },
+      "properties": {
+        "name": "Nancy",
+        "songs": [
+          "Handy Dandy",
+          "High Water (For Charley Patton)"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.87000452,
+          -24.21962116
+        ]
+      },
+      "properties": {
+        "name": "San Pedro",
+        "songs": [
+          "Billy 1",
+          "Billy 4"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8197107,
+          41.14000694
+        ]
+      },
+      "properties": {
+        "name": "Cheyenne",
+        "songs": [
+          "Gypsy Lou",
+          "Wanted Man"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.079987021,
+          57.17039797
+        ]
+      },
+      "properties": {
+        "name": "Aberdeen",
+        "songs": [
+          "Dusty Old Fairgrounds",
+          "Highlands"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97.86786576,
+          15.25326662
+        ]
+      },
+      "properties": {
+        "name": "Ye",
+        "songs": [
+          "Playboys and Playgirls",
+          "Ye Shall Be Changed"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.52437984,
+          58.48468467
+        ]
+      },
+      "properties": {
+        "name": "Buy",
+        "songs": [
+          "You Ain’t Goin’ Nowhere",
+          "You’re Gonna Quit Me"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.61998499,
+          39.29999005
+        ]
+      },
+      "properties": {
+        "name": "Baltimore",
+        "songs": [
+          "The Lonesome Death Of Hattie Carroll",
+          "Tryin’ To Get To Heaven"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.39994938,
+          33.83001385
+        ]
+      },
+      "properties": {
+        "name": "Atlanta",
+        "songs": [
+          "Delia",
+          "They Killed Him"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.07001367,
+          42.32996014
+        ]
+      },
+      "properties": {
+        "name": "Boston",
+        "songs": [
+          "Highlands",
+          "Two Soldiers"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.74001754,
+          7.970016092000001
+        ]
+      },
+      "properties": {
+        "name": "Bo",
+        "songs": [
+          "From A Buick 6",
+          "I Shall Be Free"
+        ],
+        "cnt": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2955094,
+          32.70398439
+        ]
+      },
+      "properties": {
+        "name": "Nazareth",
+        "songs": [
+          "The Weight"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2499860040000002,
+          51.7704175
+        ]
+      },
+      "properties": {
+        "name": "Oxford",
+        "songs": [
+          "Oxford Town"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0999841,
+          -33.27999835
+        ]
+      },
+      "properties": {
+        "name": "Orange",
+        "songs": [
+          "Talkin’ New York"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.00999007,
+          41.24000083
+        ]
+      },
+      "properties": {
+        "name": "Omaha",
+        "songs": [
+          "I Shall Be Free No. 10"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.265023965,
+          43.71501772
+        ]
+      },
+      "properties": {
+        "name": "Nice",
+        "songs": [
+          "Motorpsycho Nightmare"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0369434,
+          43.09482302
+        ]
+      },
+      "properties": {
+        "name": "Niagara Falls",
+        "songs": [
+          "Man Of Peace"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.42332320000001,
+          39.36463727
+        ]
+      },
+      "properties": {
+        "name": "Atlantic City",
+        "songs": [
+          "Caribbean Wind"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.35004378,
+          25.08339012
+        ]
+      },
+      "properties": {
+        "name": "Nassau",
+        "songs": [
+          "Caribbean Wind"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.17000533,
+          40.91999453
+        ]
+      },
+      "properties": {
+        "name": "Paterson",
+        "songs": [
+          "Hurricane"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74277836,
+          30.26694969
+        ]
+      },
+      "properties": {
+        "name": "Austin",
+        "songs": [
+          "If You Ever Go To Houston"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.27918868,
+          32.36160219
+        ]
+      },
+      "properties": {
+        "name": "Montgomery",
+        "songs": [
+          "Tiny Montgomery"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.04998499,
+          30.68002525
+        ]
+      },
+      "properties": {
+        "name": "Mobile",
+        "songs": [
+          "Stuck Inside Of Mobile With The Memphis Blues Again"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.22410608,
+          25.7876107
+        ]
+      },
+      "properties": {
+        "name": "Miami",
+        "songs": [
+          "Caribbean Wind"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1309882,
+          19.44244244
+        ]
+      },
+      "properties": {
+        "name": "Mexico City",
+        "songs": [
+          "Something’s Burning, Baby"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.4699679,
+          -33.68958576
+        ]
+      },
+      "properties": {
+        "name": "Mercedes",
+        "songs": [
+          "Angelina"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1833703190000002,
+          41.38329958
+        ]
+      },
+      "properties": {
+        "name": "Barcelona",
+        "songs": [
+          "Boots Of Spanish Leather"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.333335326,
+          48.86669293
+        ]
+      },
+      "properties": {
+        "name": "Paris",
+        "songs": [
+          "Slow Train"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.4998947,
+          31.41579429
+        ]
+      },
+      "properties": {
+        "name": "Pecos",
+        "songs": [
+          "Billy 1"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6833516860000004,
+          40.40002626
+        ]
+      },
+      "properties": {
+        "name": "Madrid",
+        "songs": [
+          "Boots Of Spanish Leather"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.85582070000001,
+          1.293033466
+        ]
+      },
+      "properties": {
+        "name": "Singapore",
+        "songs": [
+          "Union Sundown"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.91597905,
+          16.84999086
+        ]
+      },
+      "properties": {
+        "name": "Acapulco",
+        "songs": [
+          "Goin’ To Acapulco"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7832743,
+          -41.29997394
+        ]
+      },
+      "properties": {
+        "name": "Wellington",
+        "songs": [
+          "Tempest"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -168.0875027,
+          65.60959861
+        ]
+      },
+      "properties": {
+        "name": "Wales",
+        "songs": [
+          "Jim Jones"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.8777452,
+          32.3524813
+        ]
+      },
+      "properties": {
+        "name": "Vicksburg",
+        "songs": [
+          "High Water (For Charley Patton)"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.832703696,
+          35.74728701
+        ]
+      },
+      "properties": {
+        "name": "Tangier",
+        "songs": [
+          "If You See Her, Say Hello"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.64133079999999,
+          35.10497479
+        ]
+      },
+      "properties": {
+        "name": "Albuquerque",
+        "songs": [
+          "Wanted Man"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.15001367,
+          43.04999371
+        ]
+      },
+      "properties": {
+        "name": "Syracuse",
+        "songs": [
+          "Wanted Man"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.46999182,
+          43.52040428
+        ]
+      },
+      "properties": {
+        "name": "Split",
+        "songs": [
+          "Tangled Up In Blue"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.77002344,
+          32.50001752
+        ]
+      },
+      "properties": {
+        "name": "Shreveport",
+        "songs": [
+          "Wanted Man"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.40223698,
+          37.22776512
+        ]
+      },
+      "properties": {
+        "name": "Petersburg",
+        "songs": [
+          "Dusty Old Fairgrounds"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.33998500000001,
+          47.57000205
+        ]
+      },
+      "properties": {
+        "name": "Seattle",
+        "songs": [
+          "Ballad Of Donald White"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.07048446,
+          27.75046246
+        ]
+      },
+      "properties": {
+        "name": "Alice",
+        "songs": [
+          "Frankie & Albert"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.82999659999999,
+          35.22998008
+        ]
+      },
+      "properties": {
+        "name": "Amarillo",
+        "songs": [
+          "Brownsville Girl"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9166401760000005,
+          52.34996869
+        ]
+      },
+      "properties": {
+        "name": "Amsterdam",
+        "songs": [
+          "Slow Train"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.47998743,
+          -12.969971899999999
+        ]
+      },
+      "properties": {
+        "name": "Salvador",
+        "songs": [
+          "Union Sundown"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.02023849,
+          32.68476076
+        ]
+      },
+      "properties": {
+        "name": "Arlington",
+        "songs": [
+          "Gypsy Lou"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.449986,
+          37.55001935
+        ]
+      },
+      "properties": {
+        "name": "Richmond",
+        "songs": [
+          "The Night They Drove Old Dixie Down"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.99998539,
+          40.429998600000005
+        ]
+      },
+      "properties": {
+        "name": "Pittsburgh",
+        "songs": [
+          "Lo And Behold!"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.0499506,
+          30.61661826
+        ]
+      },
+      "properties": {
+        "name": "Magdalena",
+        "songs": [
+          "Romance In Durango"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.116623086,
+          52.20039125
+        ]
+      },
+      "properties": {
+        "name": "Cambridge",
+        "songs": [
+          "Baby, Let Me Follow You Down"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.14015812,
+          30.45794578
+        ]
+      },
+      "properties": {
+        "name": "Baton Rouge",
+        "songs": [
+          "Wanted Man"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.45430253,
+          51.47472495
+        ]
+      },
+      "properties": {
+        "name": "Gay",
+        "songs": [
+          "The Water Is Wide"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7894257,
+          46.8772278
+        ]
+      },
+      "properties": {
+        "name": "Fargo",
+        "songs": [
+          "Dusty Old Fairgrounds"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3333166080000005,
+          50.83331708
+        ]
+      },
+      "properties": {
+        "name": "Brussels",
+        "songs": [
+          "When I Paint My Masterpiece"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.67003000000001,
+          24.03110292
+        ]
+      },
+      "properties": {
+        "name": "Durango",
+        "songs": [
+          "Romance In Durango"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.10637822,
+          46.78333173
+        ]
+      },
+      "properties": {
+        "name": "Duluth",
+        "songs": [
+          "Something There Is About You"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.08005579,
+          42.32996014
+        ]
+      },
+      "properties": {
+        "name": "Detroit",
+        "songs": [
+          "Early Roman Kings"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39753137,
+          -34.60250161
+        ]
+      },
+      "properties": {
+        "name": "Buenos Aires",
+        "songs": [
+          "The Groom’s Still Waiting At The Altar"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.43332524,
+          8.433321146
+        ]
+      },
+      "properties": {
+        "name": "David",
+        "songs": [
+          "All Over You"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.8500386,
+          -12.42535398
+        ]
+      },
+      "properties": {
+        "name": "Darwin",
+        "songs": [
+          "High Water (For Charley Patton)"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39531946,
+          36.58625388
+        ]
+      },
+      "properties": {
+        "name": "Danville",
+        "songs": [
+          "The Night They Drove Old Dixie Down"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.84001693,
+          32.82002382
+        ]
+      },
+      "properties": {
+        "name": "Dallas",
+        "songs": [
+          "If You Ever Go To Houston"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.76277409,
+          39.65317263
+        ]
+      },
+      "properties": {
+        "name": "Cumberland",
+        "songs": [
+          "Floater  (Too Much To Ask)"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.40189478,
+          27.74281435
+        ]
+      },
+      "properties": {
+        "name": "Corpus Christi",
+        "songs": [
+          "Brownsville Girl"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9900096,
+          39.97997438
+        ]
+      },
+      "properties": {
+        "name": "Columbus",
+        "songs": [
+          "Bob Dylan’s 115th Dream"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.88000208,
+          42.87997825
+        ]
+      },
+      "properties": {
+        "name": "Buffalo",
+        "songs": [
+          "Wanted Man"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.919987428,
+          53.20002016
+        ]
+      },
+      "properties": {
+        "name": "Chester",
+        "songs": [
+          "The Weight"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.83003809,
+          35.20499453
+        ]
+      },
+      "properties": {
+        "name": "Charlotte",
+        "songs": [
+          "Soon After Midnight"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.00998132,
+          -24.79002562
+        ]
+      },
+      "properties": {
+        "name": "Castro",
+        "songs": [
+          "Motorpsycho Nightmare"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.50000248,
+          25.91997988
+        ]
+      },
+      "properties": {
+        "name": "Brownsville",
+        "songs": [
+          "Brownsville Girl"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.169974407,
+          50.83034568
+        ]
+      },
+      "properties": {
+        "name": "Brighton",
+        "songs": [
+          "Sign On The Window"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.22024947,
+          37.72683026
+        ]
+      },
+      "properties": {
+        "name": "Carbondale",
+        "songs": [
+          "Duquesne Whistle"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.37807483,
+          36.13243495
+        ]
+      },
+      "properties": {
+        "name": "Gibraltar",
+        "songs": [
+          "The Groom’s Still Waiting At The Altar"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5699974,
+          6.329986998
+        ]
+      },
+      "properties": {
+        "name": "Bello",
+        "songs": [
+          "Hurricane"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0979985290000003,
+          11.09400299
+        ]
+      },
+      "properties": {
+        "name": "Leo",
+        "songs": [
+          "Tempest"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.76576990000001,
+          44.35084454
+        ]
+      },
+      "properties": {
+        "name": "Lead",
+        "songs": [
+          "T.V. Talkin’ Song"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.22000609999999,
+          36.20999778
+        ]
+      },
+      "properties": {
+        "name": "Las Vegas",
+        "songs": [
+          "Went To See The Gypsy"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.6194058,
+          38.08649823
+        ]
+      },
+      "properties": {
+        "name": "Lamar",
+        "songs": [
+          "If You Ever Go To Houston"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.21718897,
+          30.22638369
+        ]
+      },
+      "properties": {
+        "name": "Lake Charles",
+        "songs": [
+          "Up On Cripple Creek"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.56194788,
+          36.54832338
+        ]
+      },
+      "properties": {
+        "name": "Kingsport",
+        "songs": [
+          "Kingsport Town"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.40154862,
+          52.52181866
+        ]
+      },
+      "properties": {
+        "name": "Berlin",
+        "songs": [
+          "What’ll I Do"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.10667403,
+          41.52998313
+        ]
+      },
+      "properties": {
+        "name": "Joliet",
+        "songs": [
+          "Percy’s Song"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.73278609,
+          32.4486253
+        ]
+      },
+      "properties": {
+        "name": "Abilene",
+        "songs": [
+          "Wanted Man"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.41528121,
+          39.09111391
+        ]
+      },
+      "properties": {
+        "name": "Independence",
+        "songs": [
+          "Tears Of Rage"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.33997929,
+          29.81997438
+        ]
+      },
+      "properties": {
+        "name": "Houston",
+        "songs": [
+          "If You Ever Go To Houston"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.85799790000002,
+          21.30687644
+        ]
+      },
+      "properties": {
+        "name": "Honolulu",
+        "songs": [
+          "You’re Gonna Make Me Lonesome When You Go"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18500929999999,
+          22.304980899999997
+        ]
+      },
+      "properties": {
+        "name": "Hong Kong",
+        "songs": [
+          "Union Sundown"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.54827969999997,
+          59.64293439
+        ]
+      },
+      "properties": {
+        "name": "Homer",
+        "songs": [
+          "Open the Door, Homer"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.999999144,
+          53.55002464
+        ]
+      },
+      "properties": {
+        "name": "Hamburg",
+        "songs": [
+          "Roll On John"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1385922,
+          36.05478762
+        ]
+      },
+      "properties": {
+        "name": "Grand Canyon",
+        "songs": [
+          "Last Thoughts On Woody Guthrie"
+        ],
+        "cnt": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.917997886,
+          53.41600181
+        ]
+      },
+      "properties": {
+        "name": "Liverpool",
+        "songs": [
+          "Roll On John"
+        ],
+        "cnt": 1
+      }
+    }
+  ]
+}

@@ -61,4 +61,3 @@ def get_counts(df, col):
             .to_frame(name='count')
             .reset_index()
             .rename(columns={'index': col}))
-

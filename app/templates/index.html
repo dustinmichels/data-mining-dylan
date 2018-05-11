@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block title %} Test {% endblock %}
+{% block head %} {{ super() }} {% endblock %}
+<h1>This is some text</h1>
+{% block body %}
+    {% include "map.html" %}
+{% endblock %}

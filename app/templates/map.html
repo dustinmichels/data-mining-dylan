@@ -1,0 +1,3760 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_dd9675fb57fb42a283a62547eb39217d {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_dd9675fb57fb42a283a62547eb39217d" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_dd9675fb57fb42a283a62547eb39217d = L.map(
+                                  'map_dd9675fb57fb42a283a62547eb39217d',
+                                  {center: [20,-40],
+                                  zoom: 2,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_af145cfcdd1d425294fb5e676be4542f = L.tileLayer(
+                'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+        
+    
+            var circle_marker_b2f638154eb94a208d394667437acb12 = L.circleMarker(
+                [29.99500246,-90.03996688],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_b1c9f6669b884f1f98c08dc138bad236 = L.popup({maxWidth: '250'});
+
+            
+                var html_928529a6e210432ba99f795f844d1706 = $('<div id="html_928529a6e210432ba99f795f844d1706" style="width: 100.0%; height: 100.0%;"><b>New Orleans</b>, 6 mention(s)<br><i>Appears in:</i> Blind Willie McTell, Bob Dylan’s New Orleans Rag, House Of the Risin’ Sun, Rambling, Gambling Willie, Tangled Up In Blue, Tryin’ To Get To Heaven</div>')[0];
+                popup_b1c9f6669b884f1f98c08dc138bad236.setContent(html_928529a6e210432ba99f795f844d1706);
+            
+
+            circle_marker_b2f638154eb94a208d394667437acb12.bindPopup(popup_b1c9f6669b884f1f98c08dc138bad236);
+
+            
+        
+    
+            var circle_marker_d4ba93a467104b4990156fc2c7845fca = L.circleMarker(
+                [40.74997906,-73.98001693],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_153094fadf8f4dbd94ac902cb8cd77a0 = L.popup({maxWidth: '250'});
+
+            
+                var html_84b7c7a015e947c79a7df230ecd792f1 = $('<div id="html_84b7c7a015e947c79a7df230ecd792f1" style="width: 100.0%; height: 100.0%;"><b>New York</b>, 6 mention(s)<br><i>Appears in:</i> Hard Times In New York Town, I Shall Be Free No. 10, Joey, Just Like Tom Thumb’s Blues, Talkin’ New York, This Land Is Your Land</div>')[0];
+                popup_153094fadf8f4dbd94ac902cb8cd77a0.setContent(html_84b7c7a015e947c79a7df230ecd792f1);
+            
+
+            circle_marker_d4ba93a467104b4990156fc2c7845fca.bindPopup(popup_153094fadf8f4dbd94ac902cb8cd77a0);
+
+            
+        
+    
+            var circle_marker_12dbbbffa4764a9b9b8c76c29cddfd32 = L.circleMarker(
+                [46.78333173,-92.10637822],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_9d528a57c5484089bb928adc0837ee73 = L.popup({maxWidth: '250'});
+
+            
+                var html_454be10e24384668bc471c401ab47d75 = $('<div id="html_454be10e24384668bc471c401ab47d75" style="width: 100.0%; height: 100.0%;"><b>Duluth</b>, 1 mention(s)<br><i>Appears in:</i> Something There Is About You</div>')[0];
+                popup_9d528a57c5484089bb928adc0837ee73.setContent(html_454be10e24384668bc471c401ab47d75);
+            
+
+            circle_marker_12dbbbffa4764a9b9b8c76c29cddfd32.bindPopup(popup_9d528a57c5484089bb928adc0837ee73);
+
+            
+        
+    
+            var circle_marker_434f9f9b62f74b95bfd747b10821c461 = L.circleMarker(
+                [19.44244244,-99.1309882],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_1b5ad2c0413b4895bf6df96b80b964f1 = L.popup({maxWidth: '250'});
+
+            
+                var html_bb37bd1b8c844d8abe31b8d530ca7f5f = $('<div id="html_bb37bd1b8c844d8abe31b8d530ca7f5f" style="width: 100.0%; height: 100.0%;"><b>Mexico City</b>, 1 mention(s)<br><i>Appears in:</i> Something’s Burning, Baby</div>')[0];
+                popup_1b5ad2c0413b4895bf6df96b80b964f1.setContent(html_bb37bd1b8c844d8abe31b8d530ca7f5f);
+            
+
+            circle_marker_434f9f9b62f74b95bfd747b10821c461.bindPopup(popup_1b5ad2c0413b4895bf6df96b80b964f1);
+
+            
+        
+    
+            var circle_marker_7ed3b992132d4d39b8d38c925091448a = L.circleMarker(
+                [35.20499453,-80.83003809],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_2c72dd66409549d2bd5b151029284db6 = L.popup({maxWidth: '250'});
+
+            
+                var html_df47cada588a4b0aadbc47cd478aa13a = $('<div id="html_df47cada588a4b0aadbc47cd478aa13a" style="width: 100.0%; height: 100.0%;"><b>Charlotte</b>, 1 mention(s)<br><i>Appears in:</i> Soon After Midnight</div>')[0];
+                popup_2c72dd66409549d2bd5b151029284db6.setContent(html_df47cada588a4b0aadbc47cd478aa13a);
+            
+
+            circle_marker_7ed3b992132d4d39b8d38c925091448a.bindPopup(popup_2c72dd66409549d2bd5b151029284db6);
+
+            
+        
+    
+            var circle_marker_21a6af29f1054e0c86a0b3a5e43cb20a = L.circleMarker(
+                [30.68002525,-88.04998499],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_77b90929e74d4abb94818b29488cd785 = L.popup({maxWidth: '250'});
+
+            
+                var html_9c474622d1a1467aa1d52f5310365e49 = $('<div id="html_9c474622d1a1467aa1d52f5310365e49" style="width: 100.0%; height: 100.0%;"><b>Mobile</b>, 1 mention(s)<br><i>Appears in:</i> Stuck Inside Of Mobile With The Memphis Blues Again</div>')[0];
+                popup_77b90929e74d4abb94818b29488cd785.setContent(html_9c474622d1a1467aa1d52f5310365e49);
+            
+
+            circle_marker_21a6af29f1054e0c86a0b3a5e43cb20a.bindPopup(popup_77b90929e74d4abb94818b29488cd785);
+
+            
+        
+    
+            var circle_marker_6222a5944e094060bead7d251d9fb83a = L.circleMarker(
+                [44.35084454,-103.7657699],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_4a55a84638b3418a8d13c6c1a371006a = L.popup({maxWidth: '250'});
+
+            
+                var html_8e6b6f4cbed6481a9770fd9bf84e0a3d = $('<div id="html_8e6b6f4cbed6481a9770fd9bf84e0a3d" style="width: 100.0%; height: 100.0%;"><b>Lead</b>, 1 mention(s)<br><i>Appears in:</i> T.V. Talkin’ Song</div>')[0];
+                popup_4a55a84638b3418a8d13c6c1a371006a.setContent(html_8e6b6f4cbed6481a9770fd9bf84e0a3d);
+            
+
+            circle_marker_6222a5944e094060bead7d251d9fb83a.bindPopup(popup_4a55a84638b3418a8d13c6c1a371006a);
+
+            
+        
+    
+            var circle_marker_2516e3c3b7124484b9b0f8699c9a5306 = L.circleMarker(
+                [-33.27999835,149.0999841],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_9071bba650784d7bac3ed555683fe88c = L.popup({maxWidth: '250'});
+
+            
+                var html_79eed473e12e43dfbc8d9098eb997640 = $('<div id="html_79eed473e12e43dfbc8d9098eb997640" style="width: 100.0%; height: 100.0%;"><b>Orange</b>, 1 mention(s)<br><i>Appears in:</i> Talkin’ New York</div>')[0];
+                popup_9071bba650784d7bac3ed555683fe88c.setContent(html_79eed473e12e43dfbc8d9098eb997640);
+            
+
+            circle_marker_2516e3c3b7124484b9b0f8699c9a5306.bindPopup(popup_9071bba650784d7bac3ed555683fe88c);
+
+            
+        
+    
+            var circle_marker_26ccd612b5e94d5686f93e34a9429427 = L.circleMarker(
+                [43.52040428,16.46999182],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_8210a88ac46344c28afd4f31e6b2562b = L.popup({maxWidth: '250'});
+
+            
+                var html_3643e420bfc34d8fa2c2ad3ca2c74723 = $('<div id="html_3643e420bfc34d8fa2c2ad3ca2c74723" style="width: 100.0%; height: 100.0%;"><b>Split</b>, 1 mention(s)<br><i>Appears in:</i> Tangled Up In Blue</div>')[0];
+                popup_8210a88ac46344c28afd4f31e6b2562b.setContent(html_3643e420bfc34d8fa2c2ad3ca2c74723);
+            
+
+            circle_marker_26ccd612b5e94d5686f93e34a9429427.bindPopup(popup_8210a88ac46344c28afd4f31e6b2562b);
+
+            
+        
+    
+            var circle_marker_bd8eaa38ff17457ea03b665d3a5f5a32 = L.circleMarker(
+                [39.09111391,-94.41528121],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_5bf73d39168a4de2bcc19aabc2d1f926 = L.popup({maxWidth: '250'});
+
+            
+                var html_5d03b6efde3f470398daa88adb96b542 = $('<div id="html_5d03b6efde3f470398daa88adb96b542" style="width: 100.0%; height: 100.0%;"><b>Independence</b>, 1 mention(s)<br><i>Appears in:</i> Tears Of Rage</div>')[0];
+                popup_5bf73d39168a4de2bcc19aabc2d1f926.setContent(html_5d03b6efde3f470398daa88adb96b542);
+            
+
+            circle_marker_bd8eaa38ff17457ea03b665d3a5f5a32.bindPopup(popup_5bf73d39168a4de2bcc19aabc2d1f926);
+
+            
+        
+    
+            var circle_marker_4737431d55c143588630485def8a6245 = L.circleMarker(
+                [-41.29997394,174.7832743],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_732493fd68304be3aa52f6b217824ff2 = L.popup({maxWidth: '250'});
+
+            
+                var html_090771cc29ba48fb9ce19f3d3d84a0b3 = $('<div id="html_090771cc29ba48fb9ce19f3d3d84a0b3" style="width: 100.0%; height: 100.0%;"><b>Wellington</b>, 1 mention(s)<br><i>Appears in:</i> Tempest</div>')[0];
+                popup_732493fd68304be3aa52f6b217824ff2.setContent(html_090771cc29ba48fb9ce19f3d3d84a0b3);
+            
+
+            circle_marker_4737431d55c143588630485def8a6245.bindPopup(popup_732493fd68304be3aa52f6b217824ff2);
+
+            
+        
+    
+            var circle_marker_fee882498e704c5eb1e6081879e1a996 = L.circleMarker(
+                [11.09400299,-2.097998529],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_41f46ccb876a4ba5a77cdaa8664bd71a = L.popup({maxWidth: '250'});
+
+            
+                var html_38602a7e949c4dac8408df4e4a42f964 = $('<div id="html_38602a7e949c4dac8408df4e4a42f964" style="width: 100.0%; height: 100.0%;"><b>Leo</b>, 1 mention(s)<br><i>Appears in:</i> Tempest</div>')[0];
+                popup_41f46ccb876a4ba5a77cdaa8664bd71a.setContent(html_38602a7e949c4dac8408df4e4a42f964);
+            
+
+            circle_marker_fee882498e704c5eb1e6081879e1a996.bindPopup(popup_41f46ccb876a4ba5a77cdaa8664bd71a);
+
+            
+        
+    
+            var circle_marker_8b51a51936f141169cd733a214e73e14 = L.circleMarker(
+                [36.13243495,-5.37807483],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_75ad28c065044b109cb0100c6fba7608 = L.popup({maxWidth: '250'});
+
+            
+                var html_7e5afcb17e374ca7872eb0e52c9bebbf = $('<div id="html_7e5afcb17e374ca7872eb0e52c9bebbf" style="width: 100.0%; height: 100.0%;"><b>Gibraltar</b>, 1 mention(s)<br><i>Appears in:</i> The Groom’s Still Waiting At The Altar</div>')[0];
+                popup_75ad28c065044b109cb0100c6fba7608.setContent(html_7e5afcb17e374ca7872eb0e52c9bebbf);
+            
+
+            circle_marker_8b51a51936f141169cd733a214e73e14.bindPopup(popup_75ad28c065044b109cb0100c6fba7608);
+
+            
+        
+    
+            var circle_marker_b777f38d2b384277bb5c3cfbc8e577c9 = L.circleMarker(
+                [-34.60250161,-58.39753137],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_af328380d7c44c0ab9c9d224a852d463 = L.popup({maxWidth: '250'});
+
+            
+                var html_22974a07727e4a309a27cf8d110c36ec = $('<div id="html_22974a07727e4a309a27cf8d110c36ec" style="width: 100.0%; height: 100.0%;"><b>Buenos Aires</b>, 1 mention(s)<br><i>Appears in:</i> The Groom’s Still Waiting At The Altar</div>')[0];
+                popup_af328380d7c44c0ab9c9d224a852d463.setContent(html_22974a07727e4a309a27cf8d110c36ec);
+            
+
+            circle_marker_b777f38d2b384277bb5c3cfbc8e577c9.bindPopup(popup_af328380d7c44c0ab9c9d224a852d463);
+
+            
+        
+    
+            var circle_marker_ddeac5cc3a6a4cb38ee47936135c1e82 = L.circleMarker(
+                [37.55001935,-77.449986],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_60fc1bc4245b4bffadf4b55e6986c661 = L.popup({maxWidth: '250'});
+
+            
+                var html_32777971cf02469db86f7c36e1a8fd8f = $('<div id="html_32777971cf02469db86f7c36e1a8fd8f" style="width: 100.0%; height: 100.0%;"><b>Richmond</b>, 1 mention(s)<br><i>Appears in:</i> The Night They Drove Old Dixie Down</div>')[0];
+                popup_60fc1bc4245b4bffadf4b55e6986c661.setContent(html_32777971cf02469db86f7c36e1a8fd8f);
+            
+
+            circle_marker_ddeac5cc3a6a4cb38ee47936135c1e82.bindPopup(popup_60fc1bc4245b4bffadf4b55e6986c661);
+
+            
+        
+    
+            var circle_marker_47c2667f10b94296b347513c54c0aa91 = L.circleMarker(
+                [36.58625388,-79.39531946],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_39467ca4fd55481fa571014d8e29f84c = L.popup({maxWidth: '250'});
+
+            
+                var html_decf0403747c46e6918f27347a8c81d0 = $('<div id="html_decf0403747c46e6918f27347a8c81d0" style="width: 100.0%; height: 100.0%;"><b>Danville</b>, 1 mention(s)<br><i>Appears in:</i> The Night They Drove Old Dixie Down</div>')[0];
+                popup_39467ca4fd55481fa571014d8e29f84c.setContent(html_decf0403747c46e6918f27347a8c81d0);
+            
+
+            circle_marker_47c2667f10b94296b347513c54c0aa91.bindPopup(popup_39467ca4fd55481fa571014d8e29f84c);
+
+            
+        
+    
+            var circle_marker_571badbef9b84d1398e3d0fd4dd59ad0 = L.circleMarker(
+                [51.47472495,58.45430253],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_dc92effc8bca4f828866fa8611f86343 = L.popup({maxWidth: '250'});
+
+            
+                var html_645ce8cb10e5458ba81baea79ae13f5c = $('<div id="html_645ce8cb10e5458ba81baea79ae13f5c" style="width: 100.0%; height: 100.0%;"><b>Gay</b>, 1 mention(s)<br><i>Appears in:</i> The Water Is Wide</div>')[0];
+                popup_dc92effc8bca4f828866fa8611f86343.setContent(html_645ce8cb10e5458ba81baea79ae13f5c);
+            
+
+            circle_marker_571badbef9b84d1398e3d0fd4dd59ad0.bindPopup(popup_dc92effc8bca4f828866fa8611f86343);
+
+            
+        
+    
+            var circle_marker_73b62fdb087d459689244f1fb912889a = L.circleMarker(
+                [53.20002016,-2.919987428],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_2d12d5217d6b4a09a891557851f48e8b = L.popup({maxWidth: '250'});
+
+            
+                var html_a5559dde7f30439f8a5997d5a9a506ae = $('<div id="html_a5559dde7f30439f8a5997d5a9a506ae" style="width: 100.0%; height: 100.0%;"><b>Chester</b>, 1 mention(s)<br><i>Appears in:</i> The Weight</div>')[0];
+                popup_2d12d5217d6b4a09a891557851f48e8b.setContent(html_a5559dde7f30439f8a5997d5a9a506ae);
+            
+
+            circle_marker_73b62fdb087d459689244f1fb912889a.bindPopup(popup_2d12d5217d6b4a09a891557851f48e8b);
+
+            
+        
+    
+            var circle_marker_053fc91e2616408a8c0573e92bae26ca = L.circleMarker(
+                [32.70398439,35.2955094],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_428546c707184969a55b469857dd879d = L.popup({maxWidth: '250'});
+
+            
+                var html_6be0109355a8493eb6626b7b7e147666 = $('<div id="html_6be0109355a8493eb6626b7b7e147666" style="width: 100.0%; height: 100.0%;"><b>Nazareth</b>, 1 mention(s)<br><i>Appears in:</i> The Weight</div>')[0];
+                popup_428546c707184969a55b469857dd879d.setContent(html_6be0109355a8493eb6626b7b7e147666);
+            
+
+            circle_marker_053fc91e2616408a8c0573e92bae26ca.bindPopup(popup_428546c707184969a55b469857dd879d);
+
+            
+        
+    
+            var circle_marker_ff702b8c766a4aebb566141bd3dcb8f2 = L.circleMarker(
+                [40.81997479,-96.68000086],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_0af3080930bf4577b07bc09c56a1a6b7 = L.popup({maxWidth: '250'});
+
+            
+                var html_3c3cb333419940d3aab84bf53ce493b2 = $('<div id="html_3c3cb333419940d3aab84bf53ce493b2" style="width: 100.0%; height: 100.0%;"><b>Lincoln</b>, 4 mention(s)<br><i>Appears in:</i> Long Ago, Far Away, Senor (Tales Of Yankee Power), Talkin’ John Birch Paranoid Blues, Talkin’ World War III Blues</div>')[0];
+                popup_0af3080930bf4577b07bc09c56a1a6b7.setContent(html_3c3cb333419940d3aab84bf53ce493b2);
+            
+
+            circle_marker_ff702b8c766a4aebb566141bd3dcb8f2.bindPopup(popup_0af3080930bf4577b07bc09c56a1a6b7);
+
+            
+        
+    
+            var circle_marker_81ef2c2f1d344285b5fae4c4897a3e14 = L.circleMarker(
+                [32.36160219,-86.27918868],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_5851f946d16c4862b69c759184e27658 = L.popup({maxWidth: '250'});
+
+            
+                var html_6bcda9b2d061419695fb1c59757d6e21 = $('<div id="html_6bcda9b2d061419695fb1c59757d6e21" style="width: 100.0%; height: 100.0%;"><b>Montgomery</b>, 1 mention(s)<br><i>Appears in:</i> Tiny Montgomery</div>')[0];
+                popup_5851f946d16c4862b69c759184e27658.setContent(html_6bcda9b2d061419695fb1c59757d6e21);
+            
+
+            circle_marker_81ef2c2f1d344285b5fae4c4897a3e14.bindPopup(popup_5851f946d16c4862b69c759184e27658);
+
+            
+        
+    
+            var circle_marker_9cf8726d1b1f45c2baa8464360265045 = L.circleMarker(
+                [1.293033466,103.8558207],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_b2236b5ffd404540bfd795747177a43b = L.popup({maxWidth: '250'});
+
+            
+                var html_63b9ab8fde5b41569dae55240fa6f370 = $('<div id="html_63b9ab8fde5b41569dae55240fa6f370" style="width: 100.0%; height: 100.0%;"><b>Singapore</b>, 1 mention(s)<br><i>Appears in:</i> Union Sundown</div>')[0];
+                popup_b2236b5ffd404540bfd795747177a43b.setContent(html_63b9ab8fde5b41569dae55240fa6f370);
+            
+
+            circle_marker_9cf8726d1b1f45c2baa8464360265045.bindPopup(popup_b2236b5ffd404540bfd795747177a43b);
+
+            
+        
+    
+            var circle_marker_c90a9858013d4e978f1a71bbdb2bff6d = L.circleMarker(
+                [-12.9699719,-38.47998743],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_b4fc255cc16e4b1ab0dab5b940789a89 = L.popup({maxWidth: '250'});
+
+            
+                var html_8fd3956a2ff34e89b7b072e5839b953f = $('<div id="html_8fd3956a2ff34e89b7b072e5839b953f" style="width: 100.0%; height: 100.0%;"><b>Salvador</b>, 1 mention(s)<br><i>Appears in:</i> Union Sundown</div>')[0];
+                popup_b4fc255cc16e4b1ab0dab5b940789a89.setContent(html_8fd3956a2ff34e89b7b072e5839b953f);
+            
+
+            circle_marker_c90a9858013d4e978f1a71bbdb2bff6d.bindPopup(popup_b4fc255cc16e4b1ab0dab5b940789a89);
+
+            
+        
+    
+            var circle_marker_5be6565df3d440819b72454fcfe1fd89 = L.circleMarker(
+                [22.3049809,114.1850093],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_4c1b24bcb40a4f228c61f37889324ca5 = L.popup({maxWidth: '250'});
+
+            
+                var html_72f5da7fe5e844a0b96e533ed62f0fa1 = $('<div id="html_72f5da7fe5e844a0b96e533ed62f0fa1" style="width: 100.0%; height: 100.0%;"><b>Hong Kong</b>, 1 mention(s)<br><i>Appears in:</i> Union Sundown</div>')[0];
+                popup_4c1b24bcb40a4f228c61f37889324ca5.setContent(html_72f5da7fe5e844a0b96e533ed62f0fa1);
+            
+
+            circle_marker_5be6565df3d440819b72454fcfe1fd89.bindPopup(popup_4c1b24bcb40a4f228c61f37889324ca5);
+
+            
+        
+    
+            var circle_marker_9bfa2bc05ffd40a6aded7827fe278124 = L.circleMarker(
+                [30.22638369,-93.21718897],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_8c83860e94314a34971ac71ec45274b3 = L.popup({maxWidth: '250'});
+
+            
+                var html_0aae0ad953ed43d28e91ae69b9db846c = $('<div id="html_0aae0ad953ed43d28e91ae69b9db846c" style="width: 100.0%; height: 100.0%;"><b>Lake Charles</b>, 1 mention(s)<br><i>Appears in:</i> Up On Cripple Creek</div>')[0];
+                popup_8c83860e94314a34971ac71ec45274b3.setContent(html_0aae0ad953ed43d28e91ae69b9db846c);
+            
+
+            circle_marker_9bfa2bc05ffd40a6aded7827fe278124.bindPopup(popup_8c83860e94314a34971ac71ec45274b3);
+
+            
+        
+    
+            var circle_marker_f59d53d5d55047cfb85708f2ca013476 = L.circleMarker(
+                [43.04999371,-76.15001367],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_4195157a47ca40f9b8d3ea391d95a36a = L.popup({maxWidth: '250'});
+
+            
+                var html_aba78114585e48a78ba218f040c5af19 = $('<div id="html_aba78114585e48a78ba218f040c5af19" style="width: 100.0%; height: 100.0%;"><b>Syracuse</b>, 1 mention(s)<br><i>Appears in:</i> Wanted Man</div>')[0];
+                popup_4195157a47ca40f9b8d3ea391d95a36a.setContent(html_aba78114585e48a78ba218f040c5af19);
+            
+
+            circle_marker_f59d53d5d55047cfb85708f2ca013476.bindPopup(popup_4195157a47ca40f9b8d3ea391d95a36a);
+
+            
+        
+    
+            var circle_marker_ddd2341a73f24b0a999c749229b7d108 = L.circleMarker(
+                [42.87997825,-78.88000208],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_efa4bc230942483f829385e6fa81cc5f = L.popup({maxWidth: '250'});
+
+            
+                var html_9f62aeeffea5471d9e820c0d8a0ce2db = $('<div id="html_9f62aeeffea5471d9e820c0d8a0ce2db" style="width: 100.0%; height: 100.0%;"><b>Buffalo</b>, 1 mention(s)<br><i>Appears in:</i> Wanted Man</div>')[0];
+                popup_efa4bc230942483f829385e6fa81cc5f.setContent(html_9f62aeeffea5471d9e820c0d8a0ce2db);
+            
+
+            circle_marker_ddd2341a73f24b0a999c749229b7d108.bindPopup(popup_efa4bc230942483f829385e6fa81cc5f);
+
+            
+        
+    
+            var circle_marker_aa651fecfca3413ca45e860cd2dbd473 = L.circleMarker(
+                [35.10497479,-106.6413308],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_87c6855a12a044988a903f0d674217de = L.popup({maxWidth: '250'});
+
+            
+                var html_b8e3948260324cea9f87b70b42839b7c = $('<div id="html_b8e3948260324cea9f87b70b42839b7c" style="width: 100.0%; height: 100.0%;"><b>Albuquerque</b>, 1 mention(s)<br><i>Appears in:</i> Wanted Man</div>')[0];
+                popup_87c6855a12a044988a903f0d674217de.setContent(html_b8e3948260324cea9f87b70b42839b7c);
+            
+
+            circle_marker_aa651fecfca3413ca45e860cd2dbd473.bindPopup(popup_87c6855a12a044988a903f0d674217de);
+
+            
+        
+    
+            var circle_marker_57967e34b9cd4b10bc0b3fbb4f162b44 = L.circleMarker(
+                [32.50001752,-93.77002344],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_01dc4bd1f4dc43ea9c0451f070dcd906 = L.popup({maxWidth: '250'});
+
+            
+                var html_b567ea0ad7dc44e29581b407b61fd92d = $('<div id="html_b567ea0ad7dc44e29581b407b61fd92d" style="width: 100.0%; height: 100.0%;"><b>Shreveport</b>, 1 mention(s)<br><i>Appears in:</i> Wanted Man</div>')[0];
+                popup_01dc4bd1f4dc43ea9c0451f070dcd906.setContent(html_b567ea0ad7dc44e29581b407b61fd92d);
+            
+
+            circle_marker_57967e34b9cd4b10bc0b3fbb4f162b44.bindPopup(popup_01dc4bd1f4dc43ea9c0451f070dcd906);
+
+            
+        
+    
+            var circle_marker_1627d9ce261249979fba68a7b72c503e = L.circleMarker(
+                [32.4486253,-99.73278609],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_c6a8bc58134e4503babf73c11d8dd5f3 = L.popup({maxWidth: '250'});
+
+            
+                var html_a18367c6e9364d9b9f735f02ceda1ccf = $('<div id="html_a18367c6e9364d9b9f735f02ceda1ccf" style="width: 100.0%; height: 100.0%;"><b>Abilene</b>, 1 mention(s)<br><i>Appears in:</i> Wanted Man</div>')[0];
+                popup_c6a8bc58134e4503babf73c11d8dd5f3.setContent(html_a18367c6e9364d9b9f735f02ceda1ccf);
+            
+
+            circle_marker_1627d9ce261249979fba68a7b72c503e.bindPopup(popup_c6a8bc58134e4503babf73c11d8dd5f3);
+
+            
+        
+    
+            var circle_marker_dd1c14267021439f874cf317b36303d0 = L.circleMarker(
+                [-33.95003497,22.45004024],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_0c0652f5fc44405eb626f1ffbdb23fb3 = L.popup({maxWidth: '250'});
+
+            
+                var html_3fd99cebeef742b1ba511f8993327944 = $('<div id="html_3fd99cebeef742b1ba511f8993327944" style="width: 100.0%; height: 100.0%;"><b>George</b>, 3 mention(s)<br><i>Appears in:</i> George Jackson, High Water (For Charley Patton), Talkin’ John Birch Paranoid Blues</div>')[0];
+                popup_0c0652f5fc44405eb626f1ffbdb23fb3.setContent(html_3fd99cebeef742b1ba511f8993327944);
+            
+
+            circle_marker_dd1c14267021439f874cf317b36303d0.bindPopup(popup_0c0652f5fc44405eb626f1ffbdb23fb3);
+
+            
+        
+    
+            var circle_marker_86a725ad5417455cbe5d9c214432b6bd = L.circleMarker(
+                [30.45794578,-91.14015812],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_b4874d1fa13842e98009dc5027732d52 = L.popup({maxWidth: '250'});
+
+            
+                var html_a9819254daef4a45b15b2d2c8801c148 = $('<div id="html_a9819254daef4a45b15b2d2c8801c148" style="width: 100.0%; height: 100.0%;"><b>Baton Rouge</b>, 1 mention(s)<br><i>Appears in:</i> Wanted Man</div>')[0];
+                popup_b4874d1fa13842e98009dc5027732d52.setContent(html_a9819254daef4a45b15b2d2c8801c148);
+            
+
+            circle_marker_86a725ad5417455cbe5d9c214432b6bd.bindPopup(popup_b4874d1fa13842e98009dc5027732d52);
+
+            
+        
+    
+            var circle_marker_8648989b487343d396182702ae001523 = L.circleMarker(
+                [36.20999778,-115.2200061],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_e95275bbc9924d7d9c2543e26279b34b = L.popup({maxWidth: '250'});
+
+            
+                var html_596cc73921fd4e44bce35204091314c0 = $('<div id="html_596cc73921fd4e44bce35204091314c0" style="width: 100.0%; height: 100.0%;"><b>Las Vegas</b>, 1 mention(s)<br><i>Appears in:</i> Went To See The Gypsy</div>')[0];
+                popup_e95275bbc9924d7d9c2543e26279b34b.setContent(html_596cc73921fd4e44bce35204091314c0);
+            
+
+            circle_marker_8648989b487343d396182702ae001523.bindPopup(popup_e95275bbc9924d7d9c2543e26279b34b);
+
+            
+        
+    
+            var circle_marker_8c1bc5cf13764169abc2b9eb27f45103 = L.circleMarker(
+                [52.52181866,13.40154862],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_9c721c56a1d2431f81afacb4f6966def = L.popup({maxWidth: '250'});
+
+            
+                var html_1f42ff64c2ce42bf850fd06e50ed6ae0 = $('<div id="html_1f42ff64c2ce42bf850fd06e50ed6ae0" style="width: 100.0%; height: 100.0%;"><b>Berlin</b>, 1 mention(s)<br><i>Appears in:</i> What’ll I Do</div>')[0];
+                popup_9c721c56a1d2431f81afacb4f6966def.setContent(html_1f42ff64c2ce42bf850fd06e50ed6ae0);
+            
+
+            circle_marker_8c1bc5cf13764169abc2b9eb27f45103.bindPopup(popup_9c721c56a1d2431f81afacb4f6966def);
+
+            
+        
+    
+            var circle_marker_29e6d1b6e7424713b404b45927c46f6c = L.circleMarker(
+                [50.83331708,4.333316608],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_17125781ac62441f998d1936584c2e16 = L.popup({maxWidth: '250'});
+
+            
+                var html_a29feb8f24db4d8d9afd4b2115e46c82 = $('<div id="html_a29feb8f24db4d8d9afd4b2115e46c82" style="width: 100.0%; height: 100.0%;"><b>Brussels</b>, 1 mention(s)<br><i>Appears in:</i> When I Paint My Masterpiece</div>')[0];
+                popup_17125781ac62441f998d1936584c2e16.setContent(html_a29feb8f24db4d8d9afd4b2115e46c82);
+            
+
+            circle_marker_29e6d1b6e7424713b404b45927c46f6c.bindPopup(popup_17125781ac62441f998d1936584c2e16);
+
+            
+        
+    
+            var circle_marker_375f86f1cccf4d98a5f3f91217e27d64 = L.circleMarker(
+                [21.30687644,-157.8579979],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_66e718a565c543d9a614a7e576f2b739 = L.popup({maxWidth: '250'});
+
+            
+                var html_69660bd992aa4a8ba7afce0032fd08cd = $('<div id="html_69660bd992aa4a8ba7afce0032fd08cd" style="width: 100.0%; height: 100.0%;"><b>Honolulu</b>, 1 mention(s)<br><i>Appears in:</i> You’re Gonna Make Me Lonesome When You Go</div>')[0];
+                popup_66e718a565c543d9a614a7e576f2b739.setContent(html_69660bd992aa4a8ba7afce0032fd08cd);
+            
+
+            circle_marker_375f86f1cccf4d98a5f3f91217e27d64.bindPopup(popup_66e718a565c543d9a614a7e576f2b739);
+
+            
+        
+    
+            var circle_marker_644ff2e223754b20a892437cb25461c6 = L.circleMarker(
+                [31.778407819999998,35.20662593],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_9858e079ebcb48f8befdf061ae9722f8 = L.popup({maxWidth: '250'});
+
+            
+                var html_5a4162970b6c4871b8ece04f56df1fb5 = $('<div id="html_5a4162970b6c4871b8ece04f56df1fb5" style="width: 100.0%; height: 100.0%;"><b>Jerusalem</b>, 2 mention(s)<br><i>Appears in:</i> Angelina, Blind Willie McTell</div>')[0];
+                popup_9858e079ebcb48f8befdf061ae9722f8.setContent(html_5a4162970b6c4871b8ece04f56df1fb5);
+            
+
+            circle_marker_644ff2e223754b20a892437cb25461c6.bindPopup(popup_9858e079ebcb48f8befdf061ae9722f8);
+
+            
+        
+    
+            var circle_marker_436e617ec20244e0b48413a0b959ac23 = L.circleMarker(
+                [-24.21962116,-64.87000452],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_f6f36d060c8249e688f9f73698721500 = L.popup({maxWidth: '250'});
+
+            
+                var html_9540e9d632074339bc550d05c261ced6 = $('<div id="html_9540e9d632074339bc550d05c261ced6" style="width: 100.0%; height: 100.0%;"><b>San Pedro</b>, 2 mention(s)<br><i>Appears in:</i> Billy 1, Billy 4</div>')[0];
+                popup_f6f36d060c8249e688f9f73698721500.setContent(html_9540e9d632074339bc550d05c261ced6);
+            
+
+            circle_marker_436e617ec20244e0b48413a0b959ac23.bindPopup(popup_f6f36d060c8249e688f9f73698721500);
+
+            
+        
+    
+            var circle_marker_17664c80f47f446881cb7c2d6b2b4ad8 = L.circleMarker(
+                [-31.62387205,-60.69000126],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_667214d0fabb49568b7ef2d532fdf1c7 = L.popup({maxWidth: '250'});
+
+            
+                var html_d9ca96b31d404b7b8695e74ed60d58a9 = $('<div id="html_d9ca96b31d404b7b8695e74ed60d58a9" style="width: 100.0%; height: 100.0%;"><b>Santa Fe</b>, 2 mention(s)<br><i>Appears in:</i> Billy 4, Santa Fé</div>')[0];
+                popup_667214d0fabb49568b7ef2d532fdf1c7.setContent(html_d9ca96b31d404b7b8695e74ed60d58a9);
+            
+
+            circle_marker_17664c80f47f446881cb7c2d6b2b4ad8.bindPopup(popup_667214d0fabb49568b7ef2d532fdf1c7);
+
+            
+        
+    
+            var circle_marker_e793c833d4354ee29498c1b601a08808 = L.circleMarker(
+                [41.82999066,-87.75005497],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_5cf15a8c1e584c93af57cbbd26bd912e = L.popup({maxWidth: '250'});
+
+            
+                var html_afea6427bf2f49c09151def6893b15d6 = $('<div id="html_afea6427bf2f49c09151def6893b15d6" style="width: 100.0%; height: 100.0%;"><b>Chicago</b>, 2 mention(s)<br><i>Appears in:</i> Cold Irons Bound, The Death Of Emmett Till</div>')[0];
+                popup_5cf15a8c1e584c93af57cbbd26bd912e.setContent(html_afea6427bf2f49c09151def6893b15d6);
+            
+
+            circle_marker_e793c833d4354ee29498c1b601a08808.bindPopup(popup_5cf15a8c1e584c93af57cbbd26bd912e);
+
+            
+        
+    
+            var circle_marker_8f8caa77469c4b4badd96d6fa259f8a7 = L.circleMarker(
+                [35.1199868,-89.99999516],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_09f09ef004de46faa2e06ef2eb0e1316 = L.popup({maxWidth: '250'});
+
+            
+                var html_e79a6e5167ac4dc9954c406e55280025 = $('<div id="html_e79a6e5167ac4dc9954c406e55280025" style="width: 100.0%; height: 100.0%;"><b>Memphis</b>, 5 mention(s)<br><i>Appears in:</i> Gypsy Lou, Kingsport Town, Someone’s Got A Hold Of My Heart, Stuck Inside Of Mobile With The Memphis Blues Again, Tight Connection To My Heart  (Has Anyone Seen My Love)</div>')[0];
+                popup_09f09ef004de46faa2e06ef2eb0e1316.setContent(html_e79a6e5167ac4dc9954c406e55280025);
+            
+
+            circle_marker_8f8caa77469c4b4badd96d6fa259f8a7.bindPopup(popup_09f09ef004de46faa2e06ef2eb0e1316);
+
+            
+        
+    
+            var circle_marker_28676701235646f6b8305abba8076c15 = L.circleMarker(
+                [39.73918805,-104.984016],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_39a1552d61ed468b8ce62c39ce12ef39 = L.popup({maxWidth: '250'});
+
+            
+                var html_a978159942df46eaa7dc0deeeb096a5a = $('<div id="html_a978159942df46eaa7dc0deeeb096a5a" style="width: 100.0%; height: 100.0%;"><b>Denver</b>, 2 mention(s)<br><i>Appears in:</i> Cry A While, Gypsy Lou</div>')[0];
+                popup_39a1552d61ed468b8ce62c39ce12ef39.setContent(html_a978159942df46eaa7dc0deeeb096a5a);
+            
+
+            circle_marker_28676701235646f6b8305abba8076c15.bindPopup(popup_39a1552d61ed468b8ce62c39ce12ef39);
+
+            
+        
+    
+            var circle_marker_ed5869990bb54c718f170f998f3f1b8f = L.circleMarker(
+                [33.83001385,-84.39994938],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_714c71330174441aa6aa4faf5e719014 = L.popup({maxWidth: '250'});
+
+            
+                var html_81bd0fabbf824d7cb7754dc0ea416c0f = $('<div id="html_81bd0fabbf824d7cb7754dc0ea416c0f" style="width: 100.0%; height: 100.0%;"><b>Atlanta</b>, 2 mention(s)<br><i>Appears in:</i> Delia, They Killed Him</div>')[0];
+                popup_714c71330174441aa6aa4faf5e719014.setContent(html_81bd0fabbf824d7cb7754dc0ea416c0f);
+            
+
+            circle_marker_ed5869990bb54c718f170f998f3f1b8f.bindPopup(popup_714c71330174441aa6aa4faf5e719014);
+
+            
+        
+    
+            var circle_marker_b532616dc40f427da8e459cf1ab776cb = L.circleMarker(
+                [57.17039797,-2.079987021],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_8e162ba8dbd24b19b40a34cd49c465aa = L.popup({maxWidth: '250'});
+
+            
+                var html_a91c14eb341a4dbb9b859bdd327fce9d = $('<div id="html_a91c14eb341a4dbb9b859bdd327fce9d" style="width: 100.0%; height: 100.0%;"><b>Aberdeen</b>, 2 mention(s)<br><i>Appears in:</i> Dusty Old Fairgrounds, Highlands</div>')[0];
+                popup_8e162ba8dbd24b19b40a34cd49c465aa.setContent(html_a91c14eb341a4dbb9b859bdd327fce9d);
+            
+
+            circle_marker_b532616dc40f427da8e459cf1ab776cb.bindPopup(popup_8e162ba8dbd24b19b40a34cd49c465aa);
+
+            
+        
+    
+            var circle_marker_18eae6739e9a493b8e3089fb27ec9df4 = L.circleMarker(
+                [43.41400203,23.23700161],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_15451694cfa64cfaa6601377f3dbcf4a = L.popup({maxWidth: '250'});
+
+            
+                var html_aa563425d5a242c98ebf443d857ea75a = $('<div id="html_aa563425d5a242c98ebf443d857ea75a" style="width: 100.0%; height: 100.0%;"><b>Montana</b>, 2 mention(s)<br><i>Appears in:</i> Dusty Old Fairgrounds, Three Angels</div>')[0];
+                popup_15451694cfa64cfaa6601377f3dbcf4a.setContent(html_aa563425d5a242c98ebf443d857ea75a);
+            
+
+            circle_marker_18eae6739e9a493b8e3089fb27ec9df4.bindPopup(popup_15451694cfa64cfaa6601377f3dbcf4a);
+
+            
+        
+    
+            var circle_marker_886d36546d85426e86da26f22316a3dc = L.circleMarker(
+                [-34.09900201,-56.21499845],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_993dd3d7154a4be49ad50123497878dc = L.popup({maxWidth: '250'});
+
+            
+                var html_7f9442edc79049139e0485bdcd1e5d09 = $('<div id="html_7f9442edc79049139e0485bdcd1e5d09" style="width: 100.0%; height: 100.0%;"><b>Florida</b>, 2 mention(s)<br><i>Appears in:</i> Dusty Old Fairgrounds, Po’ Boy</div>')[0];
+                popup_993dd3d7154a4be49ad50123497878dc.setContent(html_7f9442edc79049139e0485bdcd1e5d09);
+            
+
+            circle_marker_886d36546d85426e86da26f22316a3dc.bindPopup(popup_993dd3d7154a4be49ad50123497878dc);
+
+            
+        
+    
+            var circle_marker_3eb356b50fd84d059a98648b4973470a = L.circleMarker(
+                [7.970016092,-11.74001754],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_4f35e05be30c44579965818c52cd19fb = L.popup({maxWidth: '250'});
+
+            
+                var html_45fd37dd65204c03a024cd41ce949153 = $('<div id="html_45fd37dd65204c03a024cd41ce949153" style="width: 100.0%; height: 100.0%;"><b>Bo</b>, 2 mention(s)<br><i>Appears in:</i> From A Buick 6, I Shall Be Free</div>')[0];
+                popup_4f35e05be30c44579965818c52cd19fb.setContent(html_45fd37dd65204c03a024cd41ce949153);
+            
+
+            circle_marker_3eb356b50fd84d059a98648b4973470a.bindPopup(popup_4f35e05be30c44579965818c52cd19fb);
+
+            
+        
+    
+            var circle_marker_73f368174e4244c4a4d6859c796c20f2 = L.circleMarker(
+                [30.44998761,-84.28003422],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_b006775d35264d70bd8464f81fcb20ec = L.popup({maxWidth: '250'});
+
+            
+                var html_6f305d1895f64e02919f3ab11016035a = $('<div id="html_6f305d1895f64e02919f3ab11016035a" style="width: 100.0%; height: 100.0%;"><b>Tallahassee</b>, 2 mention(s)<br><i>Appears in:</i> Got My Mind Made Up, Wanted Man</div>')[0];
+                popup_b006775d35264d70bd8464f81fcb20ec.setContent(html_6f305d1895f64e02919f3ab11016035a);
+            
+
+            circle_marker_73f368174e4244c4a4d6859c796c20f2.bindPopup(popup_b006775d35264d70bd8464f81fcb20ec);
+
+            
+        
+    
+            var circle_marker_3a22c31d17da45478a6fce17aa2a0377 = L.circleMarker(
+                [31.77998395,-106.5099952],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_13ad9400308b413caacae8ab03bbf6ea = L.popup({maxWidth: '250'});
+
+            
+                var html_8f4c53683f5e4803a83b9671555ac352 = $('<div id="html_8f4c53683f5e4803a83b9671555ac352" style="width: 100.0%; height: 100.0%;"><b>El Paso</b>, 4 mention(s)<br><i>Appears in:</i> Billy 1, Billy 4, She’s Your Lover Now, Wanted Man</div>')[0];
+                popup_13ad9400308b413caacae8ab03bbf6ea.setContent(html_8f4c53683f5e4803a83b9671555ac352);
+            
+
+            circle_marker_3a22c31d17da45478a6fce17aa2a0377.bindPopup(popup_13ad9400308b413caacae8ab03bbf6ea);
+
+            
+        
+    
+            var circle_marker_6f9277e59f5847f99f32a436d53204b4 = L.circleMarker(
+                [41.14000694,-104.8197107],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_81b5e71ed8244f03bf92de4f28d78dcf = L.popup({maxWidth: '250'});
+
+            
+                var html_835f87d928c948749f5926fdc868c8fb = $('<div id="html_835f87d928c948749f5926fdc868c8fb" style="width: 100.0%; height: 100.0%;"><b>Cheyenne</b>, 2 mention(s)<br><i>Appears in:</i> Gypsy Lou, Wanted Man</div>')[0];
+                popup_81b5e71ed8244f03bf92de4f28d78dcf.setContent(html_835f87d928c948749f5926fdc868c8fb);
+            
+
+            circle_marker_6f9277e59f5847f99f32a436d53204b4.bindPopup(popup_81b5e71ed8244f03bf92de4f28d78dcf);
+
+            
+        
+    
+            var circle_marker_511e6036486b46d59dc702405c1bbf1f = L.circleMarker(
+                [37.71998313,-97.32998702],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_e223039b00b94f988d1075f0f2117ffd = L.popup({maxWidth: '250'});
+
+            
+                var html_5647abb28d214603a343c35d1783f604 = $('<div id="html_5647abb28d214603a343c35d1783f604" style="width: 100.0%; height: 100.0%;"><b>Wichita</b>, 2 mention(s)<br><i>Appears in:</i> Gypsy Lou, Yea! Heavy And A Bottle Of Bread</div>')[0];
+                popup_e223039b00b94f988d1075f0f2117ffd.setContent(html_5647abb28d214603a343c35d1783f604);
+            
+
+            circle_marker_511e6036486b46d59dc702405c1bbf1f.bindPopup(popup_e223039b00b94f988d1075f0f2117ffd);
+
+            
+        
+    
+            var circle_marker_d193968a5e7349048579f49f7de2e8ef = L.circleMarker(
+                [48.68368085,6.200024372],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_6e8f6cbc010d43a88be1d513fe4bdee4 = L.popup({maxWidth: '250'});
+
+            
+                var html_c1b890e195b84370b0f080d1f8e8c383 = $('<div id="html_c1b890e195b84370b0f080d1f8e8c383" style="width: 100.0%; height: 100.0%;"><b>Nancy</b>, 2 mention(s)<br><i>Appears in:</i> Handy Dandy, High Water (For Charley Patton)</div>')[0];
+                popup_6e8f6cbc010d43a88be1d513fe4bdee4.setContent(html_c1b890e195b84370b0f080d1f8e8c383);
+            
+
+            circle_marker_d193968a5e7349048579f49f7de2e8ef.bindPopup(popup_6e8f6cbc010d43a88be1d513fe4bdee4);
+
+            
+        
+    
+            var circle_marker_789001e6c0d2418a80514ac1b31cca18 = L.circleMarker(
+                [39.10708851,-94.60409422],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_aa3d52fbabe748d79209977995a591af = L.popup({maxWidth: '250'});
+
+            
+                var html_061c403e6a18484089b43e2abb758d8a = $('<div id="html_061c403e6a18484089b43e2abb758d8a" style="width: 100.0%; height: 100.0%;"><b>Kansas City</b>, 2 mention(s)<br><i>Appears in:</i> High Water (For Charley Patton), Wanted Man</div>')[0];
+                popup_aa3d52fbabe748d79209977995a591af.setContent(html_061c403e6a18484089b43e2abb758d8a);
+            
+
+            circle_marker_789001e6c0d2418a80514ac1b31cca18.bindPopup(popup_aa3d52fbabe748d79209977995a591af);
+
+            
+        
+    
+            var circle_marker_8fcb522bf04e4c90b96c5e4e9f6748a7 = L.circleMarker(
+                [42.32996014,-71.07001367],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_5f36194a8d1c4164a29bc1f79f95d69f = L.popup({maxWidth: '250'});
+
+            
+                var html_efa9eef073b94c269adeb66ab4f5b527 = $('<div id="html_efa9eef073b94c269adeb66ab4f5b527" style="width: 100.0%; height: 100.0%;"><b>Boston</b>, 2 mention(s)<br><i>Appears in:</i> Highlands, Two Soldiers</div>')[0];
+                popup_5f36194a8d1c4164a29bc1f79f95d69f.setContent(html_efa9eef073b94c269adeb66ab4f5b527);
+            
+
+            circle_marker_8fcb522bf04e4c90b96c5e4e9f6748a7.bindPopup(popup_5f36194a8d1c4164a29bc1f79f95d69f);
+
+            
+        
+    
+            var circle_marker_49adb993fe704e5a820d1810830d16f3 = L.circleMarker(
+                [-37.66551878,-59.80002975],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_c854422350c84f9a9b6bfcb954a77628 = L.popup({maxWidth: '250'});
+
+            
+                var html_b97df2713e584aa3838f4a6c74193055 = $('<div id="html_b97df2713e584aa3838f4a6c74193055" style="width: 100.0%; height: 100.0%;"><b>Juarez</b>, 2 mention(s)<br><i>Appears in:</i> Just Like Tom Thumb’s Blues, Wanted Man</div>')[0];
+                popup_c854422350c84f9a9b6bfcb954a77628.setContent(html_b97df2713e584aa3838f4a6c74193055);
+            
+
+            circle_marker_49adb993fe704e5a820d1810830d16f3.bindPopup(popup_c854422350c84f9a9b6bfcb954a77628);
+
+            
+        
+    
+            var circle_marker_2e6539aa10444cbeb06cb9edc83d8c0f = L.circleMarker(
+                [41.89595563,12.48325842],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_17fc50a665894d99a6de19706a1337e5 = L.popup({maxWidth: '250'});
+
+            
+                var html_8791edca22174a33992288e68462664b = $('<div id="html_8791edca22174a33992288e68462664b" style="width: 100.0%; height: 100.0%;"><b>Rome</b>, 2 mention(s)<br><i>Appears in:</i> Neighborhood Bully, When I Paint My Masterpiece</div>')[0];
+                popup_17fc50a665894d99a6de19706a1337e5.setContent(html_8791edca22174a33992288e68462664b);
+            
+
+            circle_marker_2e6539aa10444cbeb06cb9edc83d8c0f.bindPopup(popup_17fc50a665894d99a6de19706a1337e5);
+
+            
+        
+    
+            var circle_marker_93a67e606a4a4776a369adf1a27d7562 = L.circleMarker(
+                [15.25326662,97.86786576],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_ae039c3c11cf4464bfd64b59b864cc70 = L.popup({maxWidth: '250'});
+
+            
+                var html_9b4e47b250044ac79d10c81d8f70617e = $('<div id="html_9b4e47b250044ac79d10c81d8f70617e" style="width: 100.0%; height: 100.0%;"><b>Ye</b>, 2 mention(s)<br><i>Appears in:</i> Playboys and Playgirls, Ye Shall Be Changed</div>')[0];
+                popup_ae039c3c11cf4464bfd64b59b864cc70.setContent(html_9b4e47b250044ac79d10c81d8f70617e);
+            
+
+            circle_marker_93a67e606a4a4776a369adf1a27d7562.bindPopup(popup_ae039c3c11cf4464bfd64b59b864cc70);
+
+            
+        
+    
+            var circle_marker_971389785ebb43729be0425933413dd6 = L.circleMarker(
+                [44.25121238,-85.41360844],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_fcc186f9e7c249e4b43f4997cd33fd41 = L.popup({maxWidth: '250'});
+
+            
+                var html_f4e3990b47864f5bb36902b5ffa4b454 = $('<div id="html_f4e3990b47864f5bb36902b5ffa4b454" style="width: 100.0%; height: 100.0%;"><b>Cadillac</b>, 2 mention(s)<br><i>Appears in:</i> Summer Days, Talkin’ World War III Blues</div>')[0];
+                popup_fcc186f9e7c249e4b43f4997cd33fd41.setContent(html_f4e3990b47864f5bb36902b5ffa4b454);
+            
+
+            circle_marker_971389785ebb43729be0425933413dd6.bindPopup(popup_fcc186f9e7c249e4b43f4997cd33fd41);
+
+            
+        
+    
+            var circle_marker_0aaa0ab07a744ee4a957baef3cbe94a2 = L.circleMarker(
+                [39.29999005,-76.61998499],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_aa30815519634fb59344fa2cf0eff519 = L.popup({maxWidth: '250'});
+
+            
+                var html_81839d04d12d4fbba55ba6b3f80264c1 = $('<div id="html_81839d04d12d4fbba55ba6b3f80264c1" style="width: 100.0%; height: 100.0%;"><b>Baltimore</b>, 2 mention(s)<br><i>Appears in:</i> The Lonesome Death Of Hattie Carroll, Tryin’ To Get To Heaven</div>')[0];
+                popup_aa30815519634fb59344fa2cf0eff519.setContent(html_81839d04d12d4fbba55ba6b3f80264c1);
+            
+
+            circle_marker_0aaa0ab07a744ee4a957baef3cbe94a2.bindPopup(popup_aa30815519634fb59344fa2cf0eff519);
+
+            
+        
+    
+            var circle_marker_18d79297bda1486f9d65be38686e91b7 = L.circleMarker(
+                [58.48468467,41.52437984],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_a514b35b287e463d9c67684e8db14432 = L.popup({maxWidth: '250'});
+
+            
+                var html_be2ac27d4ef34347ac9e24912d3f54c0 = $('<div id="html_be2ac27d4ef34347ac9e24912d3f54c0" style="width: 100.0%; height: 100.0%;"><b>Buy</b>, 2 mention(s)<br><i>Appears in:</i> You Ain’t Goin’ Nowhere, You’re Gonna Quit Me</div>')[0];
+                popup_a514b35b287e463d9c67684e8db14432.setContent(html_be2ac27d4ef34347ac9e24912d3f54c0);
+            
+
+            circle_marker_18d79297bda1486f9d65be38686e91b7.bindPopup(popup_a514b35b287e463d9c67684e8db14432);
+
+            
+        
+    
+            var circle_marker_ef3b9e63f7dc470b8bfd79f2a3fe6dde = L.circleMarker(
+                [8.433321146,-82.43332524],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_e330f37dc1834e2f8c192fa6f0185a6e = L.popup({maxWidth: '250'});
+
+            
+                var html_fa4ac8ddf62f47729b2cfe1af1307c9a = $('<div id="html_fa4ac8ddf62f47729b2cfe1af1307c9a" style="width: 100.0%; height: 100.0%;"><b>David</b>, 1 mention(s)<br><i>Appears in:</i> All Over You</div>')[0];
+                popup_e330f37dc1834e2f8c192fa6f0185a6e.setContent(html_fa4ac8ddf62f47729b2cfe1af1307c9a);
+            
+
+            circle_marker_ef3b9e63f7dc470b8bfd79f2a3fe6dde.bindPopup(popup_e330f37dc1834e2f8c192fa6f0185a6e);
+
+            
+        
+    
+            var circle_marker_b61eb60f634f4440bc3317489da6cd0e = L.circleMarker(
+                [-33.68958576,-65.4699679],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_590c34dc9a864cdca2938318544b32d1 = L.popup({maxWidth: '250'});
+
+            
+                var html_805877c6a1d64eaea244257262d1e11b = $('<div id="html_805877c6a1d64eaea244257262d1e11b" style="width: 100.0%; height: 100.0%;"><b>Mercedes</b>, 1 mention(s)<br><i>Appears in:</i> Angelina</div>')[0];
+                popup_590c34dc9a864cdca2938318544b32d1.setContent(html_805877c6a1d64eaea244257262d1e11b);
+            
+
+            circle_marker_b61eb60f634f4440bc3317489da6cd0e.bindPopup(popup_590c34dc9a864cdca2938318544b32d1);
+
+            
+        
+    
+            var circle_marker_b99e0b4438db4a3c809583f50fd4df7b = L.circleMarker(
+                [52.20039125,0.116623086],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_a0a3eb988b804b498724776ee5ed96db = L.popup({maxWidth: '250'});
+
+            
+                var html_a284caec446743af9e2080f570c61843 = $('<div id="html_a284caec446743af9e2080f570c61843" style="width: 100.0%; height: 100.0%;"><b>Cambridge</b>, 1 mention(s)<br><i>Appears in:</i> Baby, Let Me Follow You Down</div>')[0];
+                popup_a0a3eb988b804b498724776ee5ed96db.setContent(html_a284caec446743af9e2080f570c61843);
+            
+
+            circle_marker_b99e0b4438db4a3c809583f50fd4df7b.bindPopup(popup_a0a3eb988b804b498724776ee5ed96db);
+
+            
+        
+    
+            var circle_marker_2d45d96d1b234596af8f42e4d488bb9a = L.circleMarker(
+                [47.57000205,-122.339985],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_90a443e1c62546cea3e200f85efef6f9 = L.popup({maxWidth: '250'});
+
+            
+                var html_162e472072dc4401892de888a49c038c = $('<div id="html_162e472072dc4401892de888a49c038c" style="width: 100.0%; height: 100.0%;"><b>Seattle</b>, 1 mention(s)<br><i>Appears in:</i> Ballad Of Donald White</div>')[0];
+                popup_90a443e1c62546cea3e200f85efef6f9.setContent(html_162e472072dc4401892de888a49c038c);
+            
+
+            circle_marker_2d45d96d1b234596af8f42e4d488bb9a.bindPopup(popup_90a443e1c62546cea3e200f85efef6f9);
+
+            
+        
+    
+            var circle_marker_29c96badb91141aa80a49ff5a846e608 = L.circleMarker(
+                [31.41579429,-103.4998947],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_9bb0ce0a95e14f36a9e91d78d2197000 = L.popup({maxWidth: '250'});
+
+            
+                var html_af9d2bfb10134adb8903431357147e62 = $('<div id="html_af9d2bfb10134adb8903431357147e62" style="width: 100.0%; height: 100.0%;"><b>Pecos</b>, 1 mention(s)<br><i>Appears in:</i> Billy 1</div>')[0];
+                popup_9bb0ce0a95e14f36a9e91d78d2197000.setContent(html_af9d2bfb10134adb8903431357147e62);
+            
+
+            circle_marker_29c96badb91141aa80a49ff5a846e608.bindPopup(popup_9bb0ce0a95e14f36a9e91d78d2197000);
+
+            
+        
+    
+            var circle_marker_610c1e72d91446be8d4fb9db11c9a3f1 = L.circleMarker(
+                [37.74000775,-122.4599777],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_4aae7d030d8a483cb1c7566c06a6bda6 = L.popup({maxWidth: '250'});
+
+            
+                var html_e62bd2f72fa84aaf938bec7bc95d5a8c = $('<div id="html_e62bd2f72fa84aaf938bec7bc95d5a8c" style="width: 100.0%; height: 100.0%;"><b>San Francisco</b>, 4 mention(s)<br><i>Appears in:</i> California, Maybe Someday, She’s Your Lover Now, You’re Gonna Make Me Lonesome When You Go</div>')[0];
+                popup_4aae7d030d8a483cb1c7566c06a6bda6.setContent(html_e62bd2f72fa84aaf938bec7bc95d5a8c);
+            
+
+            circle_marker_610c1e72d91446be8d4fb9db11c9a3f1.bindPopup(popup_4aae7d030d8a483cb1c7566c06a6bda6);
+
+            
+        
+    
+            var circle_marker_cb1153bef38b4417bcd0da034f49fdca = L.circleMarker(
+                [39.97997438,-82.9900096],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_a8c87880fb21476b8970fd630440a124 = L.popup({maxWidth: '250'});
+
+            
+                var html_c1f70702be354a8992963190383f92b8 = $('<div id="html_c1f70702be354a8992963190383f92b8" style="width: 100.0%; height: 100.0%;"><b>Columbus</b>, 1 mention(s)<br><i>Appears in:</i> Bob Dylan’s 115th Dream</div>')[0];
+                popup_a8c87880fb21476b8970fd630440a124.setContent(html_c1f70702be354a8992963190383f92b8);
+            
+
+            circle_marker_cb1153bef38b4417bcd0da034f49fdca.bindPopup(popup_a8c87880fb21476b8970fd630440a124);
+
+            
+        
+    
+            var circle_marker_16eee37e124242f181c0972fbb85db6b = L.circleMarker(
+                [40.40002626,-3.683351686],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_a45e6dca91bd424f91d6ae7ff46a1acb = L.popup({maxWidth: '250'});
+
+            
+                var html_f0b8993c883b458abdf74dc85d221ca6 = $('<div id="html_f0b8993c883b458abdf74dc85d221ca6" style="width: 100.0%; height: 100.0%;"><b>Madrid</b>, 1 mention(s)<br><i>Appears in:</i> Boots Of Spanish Leather</div>')[0];
+                popup_a45e6dca91bd424f91d6ae7ff46a1acb.setContent(html_f0b8993c883b458abdf74dc85d221ca6);
+            
+
+            circle_marker_16eee37e124242f181c0972fbb85db6b.bindPopup(popup_a45e6dca91bd424f91d6ae7ff46a1acb);
+
+            
+        
+    
+            var circle_marker_94b2d55e17b7444f9ed8f1fa5a3fb4b1 = L.circleMarker(
+                [41.38329958,2.183370319],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_6c91f164a2ea41b9a1912f379db3c956 = L.popup({maxWidth: '250'});
+
+            
+                var html_8822eb20de5347439f05c2cb4b7ec994 = $('<div id="html_8822eb20de5347439f05c2cb4b7ec994" style="width: 100.0%; height: 100.0%;"><b>Barcelona</b>, 1 mention(s)<br><i>Appears in:</i> Boots Of Spanish Leather</div>')[0];
+                popup_6c91f164a2ea41b9a1912f379db3c956.setContent(html_8822eb20de5347439f05c2cb4b7ec994);
+            
+
+            circle_marker_94b2d55e17b7444f9ed8f1fa5a3fb4b1.bindPopup(popup_6c91f164a2ea41b9a1912f379db3c956);
+
+            
+        
+    
+            var circle_marker_b0249266fc244b1db7a2f752f5a180f3 = L.circleMarker(
+                [25.91997988,-97.50000248],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_edb3b6b633414888937eb446b8dcb2b3 = L.popup({maxWidth: '250'});
+
+            
+                var html_b467d1dd48d94a5cabfdfe5150dca861 = $('<div id="html_b467d1dd48d94a5cabfdfe5150dca861" style="width: 100.0%; height: 100.0%;"><b>Brownsville</b>, 1 mention(s)<br><i>Appears in:</i> Brownsville Girl</div>')[0];
+                popup_edb3b6b633414888937eb446b8dcb2b3.setContent(html_b467d1dd48d94a5cabfdfe5150dca861);
+            
+
+            circle_marker_b0249266fc244b1db7a2f752f5a180f3.bindPopup(popup_edb3b6b633414888937eb446b8dcb2b3);
+
+            
+        
+    
+            var circle_marker_b05190661c7742729f89f4bcf1009c24 = L.circleMarker(
+                [35.22998008,-101.8299966],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_26e88bf981334dfd868c2088dd58da49 = L.popup({maxWidth: '250'});
+
+            
+                var html_87a748affabf40008d3d88447cbb0d30 = $('<div id="html_87a748affabf40008d3d88447cbb0d30" style="width: 100.0%; height: 100.0%;"><b>Amarillo</b>, 1 mention(s)<br><i>Appears in:</i> Brownsville Girl</div>')[0];
+                popup_26e88bf981334dfd868c2088dd58da49.setContent(html_87a748affabf40008d3d88447cbb0d30);
+            
+
+            circle_marker_b05190661c7742729f89f4bcf1009c24.bindPopup(popup_26e88bf981334dfd868c2088dd58da49);
+
+            
+        
+    
+            var circle_marker_dcf536a2b42f4e9f9764c2426a26675a = L.circleMarker(
+                [27.74281435,-97.40189478],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_4d34e60552dd4524a87035d11033df1a = L.popup({maxWidth: '250'});
+
+            
+                var html_f5da3f1f766a44feb0ac83dc88c1d6a8 = $('<div id="html_f5da3f1f766a44feb0ac83dc88c1d6a8" style="width: 100.0%; height: 100.0%;"><b>Corpus Christi</b>, 1 mention(s)<br><i>Appears in:</i> Brownsville Girl</div>')[0];
+                popup_4d34e60552dd4524a87035d11033df1a.setContent(html_f5da3f1f766a44feb0ac83dc88c1d6a8);
+            
+
+            circle_marker_dcf536a2b42f4e9f9764c2426a26675a.bindPopup(popup_4d34e60552dd4524a87035d11033df1a);
+
+            
+        
+    
+            var circle_marker_05f9b1fcec4f429b9efd70f92e32b1b8 = L.circleMarker(
+                [25.7876107,-80.22410608],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_a452724514a341afac2728f8fc6a5cf3 = L.popup({maxWidth: '250'});
+
+            
+                var html_fd6c00e2282e46049127bb10dd86f333 = $('<div id="html_fd6c00e2282e46049127bb10dd86f333" style="width: 100.0%; height: 100.0%;"><b>Miami</b>, 1 mention(s)<br><i>Appears in:</i> Caribbean Wind</div>')[0];
+                popup_a452724514a341afac2728f8fc6a5cf3.setContent(html_fd6c00e2282e46049127bb10dd86f333);
+            
+
+            circle_marker_05f9b1fcec4f429b9efd70f92e32b1b8.bindPopup(popup_a452724514a341afac2728f8fc6a5cf3);
+
+            
+        
+    
+            var circle_marker_54a15a68490847b5a21e32049a7e331b = L.circleMarker(
+                [25.08339012,-77.35004378],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_d9a2b614453d4579b5f96ecdd5297ec8 = L.popup({maxWidth: '250'});
+
+            
+                var html_04b84987ee57430db604cde6f2585b8d = $('<div id="html_04b84987ee57430db604cde6f2585b8d" style="width: 100.0%; height: 100.0%;"><b>Nassau</b>, 1 mention(s)<br><i>Appears in:</i> Caribbean Wind</div>')[0];
+                popup_d9a2b614453d4579b5f96ecdd5297ec8.setContent(html_04b84987ee57430db604cde6f2585b8d);
+            
+
+            circle_marker_54a15a68490847b5a21e32049a7e331b.bindPopup(popup_d9a2b614453d4579b5f96ecdd5297ec8);
+
+            
+        
+    
+            var circle_marker_34dd1cfe556346eda0d564860aca0f76 = L.circleMarker(
+                [39.36463727,-74.4233232],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_9093041dea054a3e9261cab1f1882cdb = L.popup({maxWidth: '250'});
+
+            
+                var html_0219dbb56c7e4e24987c76e71e5510d7 = $('<div id="html_0219dbb56c7e4e24987c76e71e5510d7" style="width: 100.0%; height: 100.0%;"><b>Atlantic City</b>, 1 mention(s)<br><i>Appears in:</i> Caribbean Wind</div>')[0];
+                popup_9093041dea054a3e9261cab1f1882cdb.setContent(html_0219dbb56c7e4e24987c76e71e5510d7);
+            
+
+            circle_marker_34dd1cfe556346eda0d564860aca0f76.bindPopup(popup_9093041dea054a3e9261cab1f1882cdb);
+
+            
+        
+    
+            var circle_marker_f18d2776cd294565b9240bb870576229 = L.circleMarker(
+                [37.72683026,-89.22024947],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_60b5cd47587e4aefbffed8c68d81f715 = L.popup({maxWidth: '250'});
+
+            
+                var html_c1ae48597f564f59af4aa16cb8eecd9d = $('<div id="html_c1ae48597f564f59af4aa16cb8eecd9d" style="width: 100.0%; height: 100.0%;"><b>Carbondale</b>, 1 mention(s)<br><i>Appears in:</i> Duquesne Whistle</div>')[0];
+                popup_60b5cd47587e4aefbffed8c68d81f715.setContent(html_c1ae48597f564f59af4aa16cb8eecd9d);
+            
+
+            circle_marker_f18d2776cd294565b9240bb870576229.bindPopup(popup_60b5cd47587e4aefbffed8c68d81f715);
+
+            
+        
+    
+            var circle_marker_6d94ffe3dc93463187fd831a7f5d4f09 = L.circleMarker(
+                [37.22776512,-77.40223698],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_f0fbd570a3c142e0828f87c1d450d5c0 = L.popup({maxWidth: '250'});
+
+            
+                var html_e1efb00e00b54a4ab83ed08e924f330f = $('<div id="html_e1efb00e00b54a4ab83ed08e924f330f" style="width: 100.0%; height: 100.0%;"><b>Petersburg</b>, 1 mention(s)<br><i>Appears in:</i> Dusty Old Fairgrounds</div>')[0];
+                popup_f0fbd570a3c142e0828f87c1d450d5c0.setContent(html_e1efb00e00b54a4ab83ed08e924f330f);
+            
+
+            circle_marker_6d94ffe3dc93463187fd831a7f5d4f09.bindPopup(popup_f0fbd570a3c142e0828f87c1d450d5c0);
+
+            
+        
+    
+            var circle_marker_03499e15ddc14cccaff2694ea363504f = L.circleMarker(
+                [46.8772278,-96.7894257],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_4c4f8c37a0fe4127a79e06536f45aaec = L.popup({maxWidth: '250'});
+
+            
+                var html_4c5fdcc55cf84171af192c5d0c3e72d4 = $('<div id="html_4c5fdcc55cf84171af192c5d0c3e72d4" style="width: 100.0%; height: 100.0%;"><b>Fargo</b>, 1 mention(s)<br><i>Appears in:</i> Dusty Old Fairgrounds</div>')[0];
+                popup_4c4f8c37a0fe4127a79e06536f45aaec.setContent(html_4c5fdcc55cf84171af192c5d0c3e72d4);
+            
+
+            circle_marker_03499e15ddc14cccaff2694ea363504f.bindPopup(popup_4c4f8c37a0fe4127a79e06536f45aaec);
+
+            
+        
+    
+            var circle_marker_e381cb4576c74697b2716527a475ae81 = L.circleMarker(
+                [42.32996014,-83.08005579],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_21b0e3d52b704a8f9fecbbad7aa5eb24 = L.popup({maxWidth: '250'});
+
+            
+                var html_fe19418fcd3b41c591397f6011c30de8 = $('<div id="html_fe19418fcd3b41c591397f6011c30de8" style="width: 100.0%; height: 100.0%;"><b>Detroit</b>, 1 mention(s)<br><i>Appears in:</i> Early Roman Kings</div>')[0];
+                popup_21b0e3d52b704a8f9fecbbad7aa5eb24.setContent(html_fe19418fcd3b41c591397f6011c30de8);
+            
+
+            circle_marker_e381cb4576c74697b2716527a475ae81.bindPopup(popup_21b0e3d52b704a8f9fecbbad7aa5eb24);
+
+            
+        
+    
+            var circle_marker_2b31db4d6cc141469a2126c1b0fdce12 = L.circleMarker(
+                [39.65317263,-78.76277409],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_3e3498f0ff804db9a61392cb66d97a80 = L.popup({maxWidth: '250'});
+
+            
+                var html_43edac8d7deb4a1da10dd8136d69312f = $('<div id="html_43edac8d7deb4a1da10dd8136d69312f" style="width: 100.0%; height: 100.0%;"><b>Cumberland</b>, 1 mention(s)<br><i>Appears in:</i> Floater  (Too Much To Ask)</div>')[0];
+                popup_3e3498f0ff804db9a61392cb66d97a80.setContent(html_43edac8d7deb4a1da10dd8136d69312f);
+            
+
+            circle_marker_2b31db4d6cc141469a2126c1b0fdce12.bindPopup(popup_3e3498f0ff804db9a61392cb66d97a80);
+
+            
+        
+    
+            var circle_marker_60550b5ca80c4375b1d92913bf4f6e31 = L.circleMarker(
+                [27.75046246,-98.07048446],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_c9ad50dcc3fd4af4b18d39e22ad81ea9 = L.popup({maxWidth: '250'});
+
+            
+                var html_d752018c79104ff79fb0ba4c6a5afb2d = $('<div id="html_d752018c79104ff79fb0ba4c6a5afb2d" style="width: 100.0%; height: 100.0%;"><b>Alice</b>, 1 mention(s)<br><i>Appears in:</i> Frankie & Albert</div>')[0];
+                popup_c9ad50dcc3fd4af4b18d39e22ad81ea9.setContent(html_d752018c79104ff79fb0ba4c6a5afb2d);
+            
+
+            circle_marker_60550b5ca80c4375b1d92913bf4f6e31.bindPopup(popup_c9ad50dcc3fd4af4b18d39e22ad81ea9);
+
+            
+        
+    
+            var circle_marker_41cdee45ad214956b8142470d478db64 = L.circleMarker(
+                [16.84999086,-99.91597905],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_043683288ed1427985fdeb0dabc5ca9f = L.popup({maxWidth: '250'});
+
+            
+                var html_ceb193c749514b669c01b95c1fc144ed = $('<div id="html_ceb193c749514b669c01b95c1fc144ed" style="width: 100.0%; height: 100.0%;"><b>Acapulco</b>, 1 mention(s)<br><i>Appears in:</i> Goin’ To Acapulco</div>')[0];
+                popup_043683288ed1427985fdeb0dabc5ca9f.setContent(html_ceb193c749514b669c01b95c1fc144ed);
+            
+
+            circle_marker_41cdee45ad214956b8142470d478db64.bindPopup(popup_043683288ed1427985fdeb0dabc5ca9f);
+
+            
+        
+    
+            var circle_marker_a2473910efb64608b73bef8133bfe2a3 = L.circleMarker(
+                [32.68476076,-97.02023849],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_38db2c6149794eb5abde4034ca0ec7f0 = L.popup({maxWidth: '250'});
+
+            
+                var html_03ca385153164f1cb309cc7d05c7ea77 = $('<div id="html_03ca385153164f1cb309cc7d05c7ea77" style="width: 100.0%; height: 100.0%;"><b>Arlington</b>, 1 mention(s)<br><i>Appears in:</i> Gypsy Lou</div>')[0];
+                popup_38db2c6149794eb5abde4034ca0ec7f0.setContent(html_03ca385153164f1cb309cc7d05c7ea77);
+            
+
+            circle_marker_a2473910efb64608b73bef8133bfe2a3.bindPopup(popup_38db2c6149794eb5abde4034ca0ec7f0);
+
+            
+        
+    
+            var circle_marker_5e6456b212f64520a9634e6bb0e9a218 = L.circleMarker(
+                [32.3524813,-90.8777452],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_e2b2b023bae344cdb6ef99f14da1d057 = L.popup({maxWidth: '250'});
+
+            
+                var html_0fa7062d8d284289a99534fd5302556c = $('<div id="html_0fa7062d8d284289a99534fd5302556c" style="width: 100.0%; height: 100.0%;"><b>Vicksburg</b>, 1 mention(s)<br><i>Appears in:</i> High Water (For Charley Patton)</div>')[0];
+                popup_e2b2b023bae344cdb6ef99f14da1d057.setContent(html_0fa7062d8d284289a99534fd5302556c);
+            
+
+            circle_marker_5e6456b212f64520a9634e6bb0e9a218.bindPopup(popup_e2b2b023bae344cdb6ef99f14da1d057);
+
+            
+        
+    
+            var circle_marker_b316bd8e68e94972bf74047ba14d22df = L.circleMarker(
+                [32.29881533,-90.18499679],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_8f09a6f2291f471192574cc088aa3a28 = L.popup({maxWidth: '250'});
+
+            
+                var html_d089f02360f74266b7c5704b2c683a51 = $('<div id="html_d089f02360f74266b7c5704b2c683a51" style="width: 100.0%; height: 100.0%;"><b>Jackson</b>, 4 mention(s)<br><i>Appears in:</i> Catfish, George Jackson, Outlaw Blues, Rambling, Gambling Willie</div>')[0];
+                popup_8f09a6f2291f471192574cc088aa3a28.setContent(html_d089f02360f74266b7c5704b2c683a51);
+            
+
+            circle_marker_b316bd8e68e94972bf74047ba14d22df.bindPopup(popup_8f09a6f2291f471192574cc088aa3a28);
+
+            
+        
+    
+            var circle_marker_dbaee1373a0d44a79e243619479713a4 = L.circleMarker(
+                [-12.42535398,130.8500386],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_2f0b23613b29437e9623eff4d721801d = L.popup({maxWidth: '250'});
+
+            
+                var html_c98cf7a1f29447679c427dde8317d26e = $('<div id="html_c98cf7a1f29447679c427dde8317d26e" style="width: 100.0%; height: 100.0%;"><b>Darwin</b>, 1 mention(s)<br><i>Appears in:</i> High Water (For Charley Patton)</div>')[0];
+                popup_2f0b23613b29437e9623eff4d721801d.setContent(html_c98cf7a1f29447679c427dde8317d26e);
+            
+
+            circle_marker_dbaee1373a0d44a79e243619479713a4.bindPopup(popup_2f0b23613b29437e9623eff4d721801d);
+
+            
+        
+    
+            var circle_marker_02296f812bff4ed4a5b7465dd55ecedf = L.circleMarker(
+                [6.329986998,-75.5699974],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_5b2025f8796b48798a13d3645f63bc2e = L.popup({maxWidth: '250'});
+
+            
+                var html_81749c182a2c457184c219ba5fa2ed92 = $('<div id="html_81749c182a2c457184c219ba5fa2ed92" style="width: 100.0%; height: 100.0%;"><b>Bello</b>, 1 mention(s)<br><i>Appears in:</i> Hurricane</div>')[0];
+                popup_5b2025f8796b48798a13d3645f63bc2e.setContent(html_81749c182a2c457184c219ba5fa2ed92);
+            
+
+            circle_marker_02296f812bff4ed4a5b7465dd55ecedf.bindPopup(popup_5b2025f8796b48798a13d3645f63bc2e);
+
+            
+        
+    
+            var circle_marker_95887b3c50f446559c44f5e4a6dfed26 = L.circleMarker(
+                [40.91999453,-74.17000533],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_efb8a7ccbf8c49bb9b0dbe8d9aa4c994 = L.popup({maxWidth: '250'});
+
+            
+                var html_a1f5f4bf40bd402196dd05424cb27ed6 = $('<div id="html_a1f5f4bf40bd402196dd05424cb27ed6" style="width: 100.0%; height: 100.0%;"><b>Paterson</b>, 1 mention(s)<br><i>Appears in:</i> Hurricane</div>')[0];
+                popup_efb8a7ccbf8c49bb9b0dbe8d9aa4c994.setContent(html_a1f5f4bf40bd402196dd05424cb27ed6);
+            
+
+            circle_marker_95887b3c50f446559c44f5e4a6dfed26.bindPopup(popup_efb8a7ccbf8c49bb9b0dbe8d9aa4c994);
+
+            
+        
+    
+            var circle_marker_04a67ff6e0d44a7b9eb31ccc24bfd5ee = L.circleMarker(
+                [41.24000083,-96.00999007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_6268a8d758624590906f53b7ac18561d = L.popup({maxWidth: '250'});
+
+            
+                var html_775848b0ea304b8ba975dd75599afa11 = $('<div id="html_775848b0ea304b8ba975dd75599afa11" style="width: 100.0%; height: 100.0%;"><b>Omaha</b>, 1 mention(s)<br><i>Appears in:</i> I Shall Be Free No. 10</div>')[0];
+                popup_6268a8d758624590906f53b7ac18561d.setContent(html_775848b0ea304b8ba975dd75599afa11);
+            
+
+            circle_marker_04a67ff6e0d44a7b9eb31ccc24bfd5ee.bindPopup(popup_6268a8d758624590906f53b7ac18561d);
+
+            
+        
+    
+            var circle_marker_78bd74c65ae14b00828f89c88cca3923 = L.circleMarker(
+                [30.26694969,-97.74277836],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_a2298e8d42ed41c5b9dba9f025825c08 = L.popup({maxWidth: '250'});
+
+            
+                var html_3d3626f1237a4a33ba76ee45b2a7a1c4 = $('<div id="html_3d3626f1237a4a33ba76ee45b2a7a1c4" style="width: 100.0%; height: 100.0%;"><b>Austin</b>, 1 mention(s)<br><i>Appears in:</i> If You Ever Go To Houston</div>')[0];
+                popup_a2298e8d42ed41c5b9dba9f025825c08.setContent(html_3d3626f1237a4a33ba76ee45b2a7a1c4);
+            
+
+            circle_marker_78bd74c65ae14b00828f89c88cca3923.bindPopup(popup_a2298e8d42ed41c5b9dba9f025825c08);
+
+            
+        
+    
+            var circle_marker_bfe6beced9a74863af8c562d22edfb5e = L.circleMarker(
+                [29.81997438,-95.33997929],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_d36418a4a3b24b4fa3ce89c49e0cd60c = L.popup({maxWidth: '250'});
+
+            
+                var html_9661d75738c647bb8c2c34d681214220 = $('<div id="html_9661d75738c647bb8c2c34d681214220" style="width: 100.0%; height: 100.0%;"><b>Houston</b>, 1 mention(s)<br><i>Appears in:</i> If You Ever Go To Houston</div>')[0];
+                popup_d36418a4a3b24b4fa3ce89c49e0cd60c.setContent(html_9661d75738c647bb8c2c34d681214220);
+            
+
+            circle_marker_bfe6beced9a74863af8c562d22edfb5e.bindPopup(popup_d36418a4a3b24b4fa3ce89c49e0cd60c);
+
+            
+        
+    
+            var circle_marker_b5436fa6ceeb4582a841da8fb637b6db = L.circleMarker(
+                [32.82002382,-96.84001693],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_45a3c3c9ad96426993c2fca7c83a5067 = L.popup({maxWidth: '250'});
+
+            
+                var html_06bb107e82194bb98af512b29dc818a9 = $('<div id="html_06bb107e82194bb98af512b29dc818a9" style="width: 100.0%; height: 100.0%;"><b>Dallas</b>, 1 mention(s)<br><i>Appears in:</i> If You Ever Go To Houston</div>')[0];
+                popup_45a3c3c9ad96426993c2fca7c83a5067.setContent(html_06bb107e82194bb98af512b29dc818a9);
+            
+
+            circle_marker_b5436fa6ceeb4582a841da8fb637b6db.bindPopup(popup_45a3c3c9ad96426993c2fca7c83a5067);
+
+            
+        
+    
+            var circle_marker_b99354559eda48e5af59239ad2929107 = L.circleMarker(
+                [38.08649823,-102.6194058],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_e27bd84bf4b648d2907bf6dc39279ebd = L.popup({maxWidth: '250'});
+
+            
+                var html_04e39d6056f64d5ebec4d7e0c7de7a0c = $('<div id="html_04e39d6056f64d5ebec4d7e0c7de7a0c" style="width: 100.0%; height: 100.0%;"><b>Lamar</b>, 1 mention(s)<br><i>Appears in:</i> If You Ever Go To Houston</div>')[0];
+                popup_e27bd84bf4b648d2907bf6dc39279ebd.setContent(html_04e39d6056f64d5ebec4d7e0c7de7a0c);
+            
+
+            circle_marker_b99354559eda48e5af59239ad2929107.bindPopup(popup_e27bd84bf4b648d2907bf6dc39279ebd);
+
+            
+        
+    
+            var circle_marker_6df9a59464e644f4ac7c8fcb845943f8 = L.circleMarker(
+                [35.74728701,-5.832703696],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_52f4b09574af4c5b828b028f28cb2ac4 = L.popup({maxWidth: '250'});
+
+            
+                var html_91a5b02cb77f4f0c9accff735ab6d74e = $('<div id="html_91a5b02cb77f4f0c9accff735ab6d74e" style="width: 100.0%; height: 100.0%;"><b>Tangier</b>, 1 mention(s)<br><i>Appears in:</i> If You See Her, Say Hello</div>')[0];
+                popup_52f4b09574af4c5b828b028f28cb2ac4.setContent(html_91a5b02cb77f4f0c9accff735ab6d74e);
+            
+
+            circle_marker_6df9a59464e644f4ac7c8fcb845943f8.bindPopup(popup_52f4b09574af4c5b828b028f28cb2ac4);
+
+            
+        
+    
+            var circle_marker_24b760ae30144877bdd8a5113cc62b5a = L.circleMarker(
+                [65.60959861,-168.0875027],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_61e61064a4dd4b06bbca55cd7d781ecd = L.popup({maxWidth: '250'});
+
+            
+                var html_e23eedeac7014114a423425fc1a399df = $('<div id="html_e23eedeac7014114a423425fc1a399df" style="width: 100.0%; height: 100.0%;"><b>Wales</b>, 1 mention(s)<br><i>Appears in:</i> Jim Jones</div>')[0];
+                popup_61e61064a4dd4b06bbca55cd7d781ecd.setContent(html_e23eedeac7014114a423425fc1a399df);
+            
+
+            circle_marker_24b760ae30144877bdd8a5113cc62b5a.bindPopup(popup_61e61064a4dd4b06bbca55cd7d781ecd);
+
+            
+        
+    
+            var circle_marker_e7ad99e1e68b45b7940d5ed282984103 = L.circleMarker(
+                [36.54832338,-82.56194788],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_2cdc26532a2b438884a0509e9c9808f2 = L.popup({maxWidth: '250'});
+
+            
+                var html_de2ddc5c94b24fa18e11e7bfbe974a0d = $('<div id="html_de2ddc5c94b24fa18e11e7bfbe974a0d" style="width: 100.0%; height: 100.0%;"><b>Kingsport</b>, 1 mention(s)<br><i>Appears in:</i> Kingsport Town</div>')[0];
+                popup_2cdc26532a2b438884a0509e9c9808f2.setContent(html_de2ddc5c94b24fa18e11e7bfbe974a0d);
+            
+
+            circle_marker_e7ad99e1e68b45b7940d5ed282984103.bindPopup(popup_2cdc26532a2b438884a0509e9c9808f2);
+
+            
+        
+    
+            var circle_marker_5cb0212a40ff49848a2e79f2e845ef20 = L.circleMarker(
+                [36.05478762,-112.1385922],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_7d63aaaad9794809aa74717533c8afb8 = L.popup({maxWidth: '250'});
+
+            
+                var html_594e536049e14273b71617a8fb583745 = $('<div id="html_594e536049e14273b71617a8fb583745" style="width: 100.0%; height: 100.0%;"><b>Grand Canyon</b>, 1 mention(s)<br><i>Appears in:</i> Last Thoughts On Woody Guthrie</div>')[0];
+                popup_7d63aaaad9794809aa74717533c8afb8.setContent(html_594e536049e14273b71617a8fb583745);
+            
+
+            circle_marker_5cb0212a40ff49848a2e79f2e845ef20.bindPopup(popup_7d63aaaad9794809aa74717533c8afb8);
+
+            
+        
+    
+            var circle_marker_53fd9eec03f6411db27f9342293931df = L.circleMarker(
+                [40.4299986,-79.99998539],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_0e1619284b09415983ff1d87fcef1b18 = L.popup({maxWidth: '250'});
+
+            
+                var html_52e269af4c094e198c8fb5179be900df = $('<div id="html_52e269af4c094e198c8fb5179be900df" style="width: 100.0%; height: 100.0%;"><b>Pittsburgh</b>, 1 mention(s)<br><i>Appears in:</i> Lo And Behold!</div>')[0];
+                popup_0e1619284b09415983ff1d87fcef1b18.setContent(html_52e269af4c094e198c8fb5179be900df);
+            
+
+            circle_marker_53fd9eec03f6411db27f9342293931df.bindPopup(popup_0e1619284b09415983ff1d87fcef1b18);
+
+            
+        
+    
+            var circle_marker_0a46498d494a4a23a21df516654ec262 = L.circleMarker(
+                [43.09482302,-79.0369434],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_9e2afcbfef5d4d2e9016e82cec652280 = L.popup({maxWidth: '250'});
+
+            
+                var html_d8f30ec27ca44326aba451d57df476fb = $('<div id="html_d8f30ec27ca44326aba451d57df476fb" style="width: 100.0%; height: 100.0%;"><b>Niagara Falls</b>, 1 mention(s)<br><i>Appears in:</i> Man Of Peace</div>')[0];
+                popup_9e2afcbfef5d4d2e9016e82cec652280.setContent(html_d8f30ec27ca44326aba451d57df476fb);
+            
+
+            circle_marker_0a46498d494a4a23a21df516654ec262.bindPopup(popup_9e2afcbfef5d4d2e9016e82cec652280);
+
+            
+        
+    
+            var circle_marker_e39cababd4d4407a9a58e1d19cee1cf9 = L.circleMarker(
+                [43.71501772,7.265023965],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_ca52df2e77aa40d1a0151ebd0be7d79c = L.popup({maxWidth: '250'});
+
+            
+                var html_dc12fc017ab14a4a9aab5a10fcb246d7 = $('<div id="html_dc12fc017ab14a4a9aab5a10fcb246d7" style="width: 100.0%; height: 100.0%;"><b>Nice</b>, 1 mention(s)<br><i>Appears in:</i> Motorpsycho Nightmare</div>')[0];
+                popup_ca52df2e77aa40d1a0151ebd0be7d79c.setContent(html_dc12fc017ab14a4a9aab5a10fcb246d7);
+            
+
+            circle_marker_e39cababd4d4407a9a58e1d19cee1cf9.bindPopup(popup_ca52df2e77aa40d1a0151ebd0be7d79c);
+
+            
+        
+    
+            var circle_marker_e6b77910c14d4fb5be4582aa7b7b8f86 = L.circleMarker(
+                [-24.79002562,-50.00998132],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_16dada75d18d49dfb4ae5f2f21d63f2a = L.popup({maxWidth: '250'});
+
+            
+                var html_19ae1c9917684d26acb58c0c23b2bfa5 = $('<div id="html_19ae1c9917684d26acb58c0c23b2bfa5" style="width: 100.0%; height: 100.0%;"><b>Castro</b>, 1 mention(s)<br><i>Appears in:</i> Motorpsycho Nightmare</div>')[0];
+                popup_16dada75d18d49dfb4ae5f2f21d63f2a.setContent(html_19ae1c9917684d26acb58c0c23b2bfa5);
+            
+
+            circle_marker_e6b77910c14d4fb5be4582aa7b7b8f86.bindPopup(popup_16dada75d18d49dfb4ae5f2f21d63f2a);
+
+            
+        
+    
+            var circle_marker_34bf2dbfaeeb47d888cf89f1320ac6ce = L.circleMarker(
+                [59.64293439,-151.5482797],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_8188e69e30b14a7cb65d3ad565cc21bb = L.popup({maxWidth: '250'});
+
+            
+                var html_739dfdadf25f4124bfedfdf501f71fc1 = $('<div id="html_739dfdadf25f4124bfedfdf501f71fc1" style="width: 100.0%; height: 100.0%;"><b>Homer</b>, 1 mention(s)<br><i>Appears in:</i> Open the Door, Homer</div>')[0];
+                popup_8188e69e30b14a7cb65d3ad565cc21bb.setContent(html_739dfdadf25f4124bfedfdf501f71fc1);
+            
+
+            circle_marker_34bf2dbfaeeb47d888cf89f1320ac6ce.bindPopup(popup_8188e69e30b14a7cb65d3ad565cc21bb);
+
+            
+        
+    
+            var circle_marker_7eacf02d44fd4df38d00a9487c12bb58 = L.circleMarker(
+                [51.7704175,-1.249986004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_ccea3a6789bd4a4d94dc7a3aa9a944c5 = L.popup({maxWidth: '250'});
+
+            
+                var html_f71d9d07384f4a70b27aeb00843bf3d4 = $('<div id="html_f71d9d07384f4a70b27aeb00843bf3d4" style="width: 100.0%; height: 100.0%;"><b>Oxford</b>, 1 mention(s)<br><i>Appears in:</i> Oxford Town</div>')[0];
+                popup_ccea3a6789bd4a4d94dc7a3aa9a944c5.setContent(html_f71d9d07384f4a70b27aeb00843bf3d4);
+            
+
+            circle_marker_7eacf02d44fd4df38d00a9487c12bb58.bindPopup(popup_ccea3a6789bd4a4d94dc7a3aa9a944c5);
+
+            
+        
+    
+            var circle_marker_263e3e4359e14955a89fc792399bc6c6 = L.circleMarker(
+                [41.52998313,-88.10667403],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_8d47d95a1683463889e859ef34d23eaf = L.popup({maxWidth: '250'});
+
+            
+                var html_3525ce8e096e4ecabeed631e61617716 = $('<div id="html_3525ce8e096e4ecabeed631e61617716" style="width: 100.0%; height: 100.0%;"><b>Joliet</b>, 1 mention(s)<br><i>Appears in:</i> Percy’s Song</div>')[0];
+                popup_8d47d95a1683463889e859ef34d23eaf.setContent(html_3525ce8e096e4ecabeed631e61617716);
+            
+
+            circle_marker_263e3e4359e14955a89fc792399bc6c6.bindPopup(popup_8d47d95a1683463889e859ef34d23eaf);
+
+            
+        
+    
+            var circle_marker_3dd1eb0e745b4b998e9a238f42166aef = L.circleMarker(
+                [51.49999473,-0.116721844],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_c9d7820aeb0542c68eaac0f7bbe83712 = L.popup({maxWidth: '250'});
+
+            
+                var html_2c9894e73028477fb1ec4b6eeb669d3b = $('<div id="html_2c9894e73028477fb1ec4b6eeb669d3b" style="width: 100.0%; height: 100.0%;"><b>London</b>, 4 mention(s)<br><i>Appears in:</i> Jack-A-Roe, Not Dark Yet, Something’s Burning, Baby, T.V. Talkin’ Song</div>')[0];
+                popup_c9d7820aeb0542c68eaac0f7bbe83712.setContent(html_2c9894e73028477fb1ec4b6eeb669d3b);
+            
+
+            circle_marker_3dd1eb0e745b4b998e9a238f42166aef.bindPopup(popup_c9d7820aeb0542c68eaac0f7bbe83712);
+
+            
+        
+    
+            var circle_marker_37c7e5298b5b44bda64fa3658bce89e5 = L.circleMarker(
+                [53.55002464,9.999999144],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_52132e554c5d470f83b79fb5c131947c = L.popup({maxWidth: '250'});
+
+            
+                var html_8d9b968b6d434adc8dd7ef5e342ab050 = $('<div id="html_8d9b968b6d434adc8dd7ef5e342ab050" style="width: 100.0%; height: 100.0%;"><b>Hamburg</b>, 1 mention(s)<br><i>Appears in:</i> Roll On John</div>')[0];
+                popup_52132e554c5d470f83b79fb5c131947c.setContent(html_8d9b968b6d434adc8dd7ef5e342ab050);
+            
+
+            circle_marker_37c7e5298b5b44bda64fa3658bce89e5.bindPopup(popup_52132e554c5d470f83b79fb5c131947c);
+
+            
+        
+    
+            var circle_marker_c7cfba961abd4ce198a70fd59e8e1387 = L.circleMarker(
+                [53.41600181,-2.917997886],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_af70b44aa5ff4a98b952dcdd6ca1acef = L.popup({maxWidth: '250'});
+
+            
+                var html_a83f5b1a95fb4ec8a0426d8ec28cd51e = $('<div id="html_a83f5b1a95fb4ec8a0426d8ec28cd51e" style="width: 100.0%; height: 100.0%;"><b>Liverpool</b>, 1 mention(s)<br><i>Appears in:</i> Roll On John</div>')[0];
+                popup_af70b44aa5ff4a98b952dcdd6ca1acef.setContent(html_a83f5b1a95fb4ec8a0426d8ec28cd51e);
+            
+
+            circle_marker_c7cfba961abd4ce198a70fd59e8e1387.bindPopup(popup_af70b44aa5ff4a98b952dcdd6ca1acef);
+
+            
+        
+    
+            var circle_marker_da6d9e92808f45a7a6619963e717a372 = L.circleMarker(
+                [30.61661826,-111.0499506],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_c5ea9a72a303436cadd013e9d4aca86b = L.popup({maxWidth: '250'});
+
+            
+                var html_e42f0718558e4f149686c5e13691ff4e = $('<div id="html_e42f0718558e4f149686c5e13691ff4e" style="width: 100.0%; height: 100.0%;"><b>Magdalena</b>, 1 mention(s)<br><i>Appears in:</i> Romance In Durango</div>')[0];
+                popup_c5ea9a72a303436cadd013e9d4aca86b.setContent(html_e42f0718558e4f149686c5e13691ff4e);
+            
+
+            circle_marker_da6d9e92808f45a7a6619963e717a372.bindPopup(popup_c5ea9a72a303436cadd013e9d4aca86b);
+
+            
+        
+    
+            var circle_marker_285d4a77abfb4426a53538529fe21da4 = L.circleMarker(
+                [24.03110292,-104.67003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_e8a8bf6ca24f4232871a7aa61bf19f0a = L.popup({maxWidth: '250'});
+
+            
+                var html_dd913a9656a041308a906cd89a4341a8 = $('<div id="html_dd913a9656a041308a906cd89a4341a8" style="width: 100.0%; height: 100.0%;"><b>Durango</b>, 1 mention(s)<br><i>Appears in:</i> Romance In Durango</div>')[0];
+                popup_e8a8bf6ca24f4232871a7aa61bf19f0a.setContent(html_dd913a9656a041308a906cd89a4341a8);
+            
+
+            circle_marker_285d4a77abfb4426a53538529fe21da4.bindPopup(popup_e8a8bf6ca24f4232871a7aa61bf19f0a);
+
+            
+        
+    
+            var circle_marker_e578e43a8b92488fad072cb835773b44 = L.circleMarker(
+                [50.83034568,-0.16997440700000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_0c38db758d304fb998388ae5c1cc73da = L.popup({maxWidth: '250'});
+
+            
+                var html_f330cac98a51478c96fc1c989844cefd = $('<div id="html_f330cac98a51478c96fc1c989844cefd" style="width: 100.0%; height: 100.0%;"><b>Brighton</b>, 1 mention(s)<br><i>Appears in:</i> Sign On The Window</div>')[0];
+                popup_0c38db758d304fb998388ae5c1cc73da.setContent(html_f330cac98a51478c96fc1c989844cefd);
+            
+
+            circle_marker_e578e43a8b92488fad072cb835773b44.bindPopup(popup_0c38db758d304fb998388ae5c1cc73da);
+
+            
+        
+    
+            var circle_marker_283b967e9f75495fb1529ee1758e5d7d = L.circleMarker(
+                [52.34996869,4.916640176],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_ad4d59baaad14d0d9c0df57b229df168 = L.popup({maxWidth: '250'});
+
+            
+                var html_e670af08a6304b7893dfae3ab897ce83 = $('<div id="html_e670af08a6304b7893dfae3ab897ce83" style="width: 100.0%; height: 100.0%;"><b>Amsterdam</b>, 1 mention(s)<br><i>Appears in:</i> Slow Train</div>')[0];
+                popup_ad4d59baaad14d0d9c0df57b229df168.setContent(html_e670af08a6304b7893dfae3ab897ce83);
+            
+
+            circle_marker_283b967e9f75495fb1529ee1758e5d7d.bindPopup(popup_ad4d59baaad14d0d9c0df57b229df168);
+
+            
+        
+    
+            var circle_marker_0c15bb8f73894b1fb73328f5763a4160 = L.circleMarker(
+                [48.86669293,2.3333353260000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_dd9675fb57fb42a283a62547eb39217d);
+            
+    
+            var popup_50e3557157414f648bdb354683061d8f = L.popup({maxWidth: '250'});
+
+            
+                var html_5bb5c1b23121493a8f500aa61908160f = $('<div id="html_5bb5c1b23121493a8f500aa61908160f" style="width: 100.0%; height: 100.0%;"><b>Paris</b>, 1 mention(s)<br><i>Appears in:</i> Slow Train</div>')[0];
+                popup_50e3557157414f648bdb354683061d8f.setContent(html_5bb5c1b23121493a8f500aa61908160f);
+            
+
+            circle_marker_0c15bb8f73894b1fb73328f5763a4160.bindPopup(popup_50e3557157414f648bdb354683061d8f);
+
+            
+        
+</script>
