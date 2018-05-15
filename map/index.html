@@ -2,37 +2,116 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Map</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dyaln Map</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.js"></script>
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.js"></script>
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
-        crossorigin="" />
-    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
-        crossorigin=""></script>
+  <!-- leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
+    crossorigin=""></script>
+
+  <!-- Vue -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <!-- Production -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+
+  <!-- Bulma -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- custom css -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 
 <body>
-    <h1>Dylan Map</h1>
 
-    <div id="mapWidget">
-        <div id="map"></div>
-        <div id="info">
-            <h3>Info:</h3>
-            City:
-            <select id="city-select"></select>
-            </br>
-            <span id="info-inner"></span>
-        </div>
+
+  <section class="hero is-dark is-bold is-small">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Data Mining Dylan
+        </h1>
+        <h2 class="subtitle">
+          Explore Bob Dylan's music with data.
+        </h2>
+      </div>
     </div>
+  </section>
 
-    <script src="script.js"></script>
+  <section class="section">
+    <div class="container box">
+      <h1 class="title">Places</h1>
+      <h1 class="subtitle">Which places does Dylan sing about the most?</h1>
+
+      <div class="columns" id="map-widget">
+        <div class="column is-two-thirds" id="map"></div>
+        <div class="column" id="info">
+
+          <div class="field">
+            <p class="control has-icons-left is-expanded">
+              <span class="select is-fullwidth is-rounded">
+                <select v-model="currCityId">
+                  <option v-for="city in geoData" :value="city.properties.id" :key="city.properties.id">
+                    {{ city.properties.name }}, {{ city.properties.cnt }}
+                  </option>
+                </select>
+              </span>
+              <span class="icon is-small is-left">
+                <i class="fas fa-globe"></i>
+              </span>
+            </p>
+          </div>
+
+          <div class="columns">
+            <div class="column">
+              <div class="field">
+                <label class="label">Songs</label>
+                <div class="control is-size-7">
+                  <div v-for="(song, index) in currCity.songs">
+                    <label class="radio">
+                      <input type="radio" :value="index" v-model="currSongIdx" /> {{ song }}
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-multiline">
+              <div class="field">
+                <label class="label">Lyrics</label>
+                <div class="lyricsBox">
+                  <p class="is-size-7" v-html="currLyricsHTML"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <!-- <a href="https://bulma.io">
+          <img src="static/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+        </a> -->
+        Made with
+        <i class="fas fa-heart"></i> by Dusty Michels. 2018.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script_vue.js "></script>
 </body>
 
 </html>

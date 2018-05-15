@@ -1,6 +1,5 @@
 class MapWidget {
     constructor(data) {
-
         this.map = L.map('map', { center: [20, -30], zoom: 2 });
 
         this.tileLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png', {
@@ -56,6 +55,13 @@ class MapWidget {
         // activeGroup.addLayer(L.circleMarker(e.latlng, opts)).addTo(map);
     }
 }
+
+const makeMap = (data) => {
+
+    
+}
+
+
 
 $.getJSON("places.geojson", function (geodata) {
     // console.log(geodata);
