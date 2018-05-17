@@ -1,7 +1,18 @@
+$("#showModal").click(function() {
+  $(".modal").addClass("is-active");  
+});
+
+$(".modal-background").click(function() {
+  $(".modal").removeClass("is-active");
+});
+
+$(".delete").click(function() {
+  $(".modal").removeClass("is-active");
+});
+
 // Based on: 
 // https://travishorn.com/interactive-maps-with-vue-leaflet-5430527353c8
-
-let mapWidget = new Vue({
+let vm = new Vue({
   el: '#map-widget',
   data: {
     map: null,
@@ -22,7 +33,8 @@ let mapWidget = new Vue({
       const lyrics = this.currCity.lyrics[this.currSongIdx];
       const re = new RegExp(this.currCity.name, "g");
       $el = $('<p>').append(lyrics);
-      $el.html($el.html().replace(re,'<span style="background-color: yellow;"> $& </span>'));
+      // $el.html($el.html().replace(re, '<span style="background-color: yellow;"> $& </span>'));
+      $el.html($el.html().replace(re, '<span class="has-background-warning">$&</span>'));
       $el.html($el.html().replace(/\n/g, '<br/>'));
       return $el.html();
     }
@@ -37,10 +49,10 @@ let mapWidget = new Vue({
   },
   watch: {
     currCityId: function (id) {
-      this.currSongIdx = 0;
       const layers = this.features.getLayers();
       const selLayer = layers.find(layer => layer.feature.properties.id === id);
       selLayer.openPopup();
+      this.currSongIdx = 0;
     },
   },
   methods: {
