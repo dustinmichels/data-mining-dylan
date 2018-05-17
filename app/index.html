@@ -7,6 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Dyaln Map</title>
 
+  <!-- favicon -->
+  <link rel="shortcut icon" href="static/favicon-96x96.png" type="image/x-icon">
+  <link rel="icon" href="static/favicon-96x96.png" type="image/x-icon">
+
   <!-- jquery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.js"></script>
@@ -33,7 +37,7 @@
 
 <body>
 
-
+  <!-- Title -->
   <section class="hero is-dark is-bold is-small">
     <div class="hero-body">
       <div class="container">
@@ -47,10 +51,12 @@
     </div>
   </section>
 
+  <!-- MapWidget -->
   <section class="section">
-
     <div class="container">
       <div class="box">
+        
+        <!-- MapWidget : Title -->
         <div class="level">
           <div class="level-left">
             <div>
@@ -69,9 +75,11 @@
         </div>
 
         <div class="columns" id="map-widget">
+          <!-- MapWidget : Map -->
           <div class="column is-three-fifths box" id="map"></div>
+          <!-- MapWidget : Info -->
           <div class="column" id="info">
-
+            <!-- MapWidget : Info : Place Selector -->
             <div class="field">
               <p class="control has-icons-left is-expanded">
                 <span class="select is-fullwidth">
@@ -86,19 +94,20 @@
                 </span>
               </p>
             </div>
-            <div class="columns is-1">
-              <div class="column">
+            <div class="columns is-2">
+              <!-- MapWidget : Info : Songs -->
+              <div class="column is-two-fifths">
                 <div class="field">
                   <label class="label">Songs</label>
                   <div class="control is-size-7">
-                    <div v-for="(song, index) in currCity.songs">
-                      <label class="radio">
-                        <input type="radio" :value="index" v-model="currSongIdx" /> {{ song }}
-                      </label>
+                    <div class="song-radio" v-for="(song, index) in currCity.songs">
+                      <input type="radio" :value="index" :id="'song-radio-' + index" v-model="currSongIdx" />
+                      <label :for="'song-radio-' + index" class="radio">{{ song }}</label>
                     </div>
                   </div>
                 </div>
               </div>
+              <!-- MapWidget: Info: Lyrics -->
               <div class="column">
                 <label class="label">Lyrics</label>
                 <div class="lyricsBox">
@@ -111,6 +120,7 @@
       </div>
     </div>
 
+    <!-- MapWidget: Modal -->
     <div class="container">
       <div class="modal">
         <div class="modal-background"></div>
@@ -131,16 +141,12 @@
             adipisicing elit. Expedita rerum molestiae soluta harum, repudiandae doloremque eos illo. Omnis harum nostrum
             odio velit, quisquam, odit fugit totam, et fugiat esse modi.
           </section>
-          <!-- <footer class="modal-card-foot">
-            Footer.
-          </footer> -->
         </div>
       </div>
     </div>
-
   </section>
 
-
+  <!-- Footer -->
   <footer class="footer">
     <div class="level">
       <div class="level-left">

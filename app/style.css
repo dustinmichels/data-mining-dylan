@@ -10,12 +10,32 @@
 
 #info {
   height: auto;
-  padding-top: 0;
+  padding-top: 0px;
   /* border: dashed grey 0.5px; */
   /* border: dashed grey 0.5px; */
 }
 
 .lyricsBox {
-  max-height: 200px;
+  max-height: 250px;
   overflow: scroll;
+}
+
+.song-radio input[type="radio"] {
+  display: none;
+}
+
+.song-radio label {
+  font-weight: 500;
+  padding: 5px 0px 5px 2px;
+  width: 100%;
+  border-radius: 2px;
+}
+
+.song-radio input[type="radio"]:checked+label {
+  background-color: #bbb;
+  /* font-weight: 600; */
+  /* padding: 5px; */
+  /* padding: 5px 0px 5px 10px; */
+  background-color: #004b66;
+  color: white;
 }

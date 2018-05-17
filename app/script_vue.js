@@ -29,7 +29,7 @@ let vm = new Vue({
       return place.properties;
     },
     currLyricsHTML: function () {
-      if (!this.geoData) { return '' }
+      if (!this.geoData) { return 'No data!' }
       const lyrics = this.currCity.lyrics[this.currSongIdx];
       const re = new RegExp(this.currCity.name, "g");
       $el = $('<p>').append(lyrics);
