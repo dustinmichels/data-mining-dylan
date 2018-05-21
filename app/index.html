@@ -22,9 +22,9 @@
     crossorigin=""></script>
 
   <!-- Vue -->
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
   <!-- Production -->
-  <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 
   <!-- Bulma -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
@@ -32,6 +32,24 @@
 
   <!-- custom css -->
   <link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+  <!-- Matomo -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function () {
+      var u = "//dustinmichels.com/analytics/";
+      _paq.push(['setTrackerUrl', u + 'piwik.php']);
+      _paq.push(['setSiteId', '5']);
+      var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+      g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
 
 </head>
 
@@ -41,7 +59,9 @@
   <section class="hero is-dark is-bold is-small">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title"><a href=".">Data Mining Dylan</a></h1>
+        <h1 class="title">
+          <a href=".">Data Mining Dylan</a>
+        </h1>
         <h2 class="subtitle">
           Explore Bob Dylan's music with data.
         </h2>
@@ -196,7 +216,7 @@
     </div>
   </footer>
 
-  <script src="script_vue.js "></script>
+  <script src="script.js "></script>
 </body>
 
 </html>
