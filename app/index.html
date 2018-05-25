@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Dyaln Map</title>
+  <title>Dylan Map</title>
 
   <!-- favicon -->
-  <link rel="shortcut icon" href="static/favicon-96x96.png" type="image/x-icon">
-  <link rel="icon" href="static/favicon-96x96.png" type="image/x-icon">
+  <link rel="shortcut icon" href="src/assets/favicon-96x96.png" type="image/x-icon">
+  <link rel="icon" href="src/assets/favicon-96x96.png" type="image/x-icon">
 
   <!-- jquery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -22,9 +22,9 @@
     crossorigin=""></script>
 
   <!-- Vue -->
-  <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <!-- Production -->
-  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
 
   <!-- Bulma -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
@@ -32,8 +32,6 @@
 
   <!-- custom css -->
   <link rel="stylesheet" type="text/css" href="style.css">
-
-
 
   <!-- Matomo -->
   <script type="text/javascript">
@@ -50,7 +48,6 @@
     })();
   </script>
   <!-- End Matomo Code -->
-
 </head>
 
 <body>
@@ -70,7 +67,7 @@
   </section>
 
   <!-- MapWidget -->
-  <section class="section">
+  <section class="section" id="map-widget">
     <div class="container">
       <div class="box">
 
@@ -83,7 +80,7 @@
             </div>
           </div>
           <div class="level-right">
-            <button class="button is-light" id="showModal">
+            <button class="button is-light" id="showModal" v-on:click="showModal=true">
               <span class="icon">
                 <i class="fas fa-info-circle"></i>
               </span>
@@ -92,7 +89,8 @@
           </div>
         </div>
 
-        <div class="columns" id="map-widget">
+        <!-- MapWidget : Map & Info Box -->
+        <div class="columns">
           <!-- MapWidget : Map -->
           <div class="column is-three-fifths box" id="map"></div>
           <!-- MapWidget : Info -->
@@ -135,49 +133,25 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
 
-    <!-- MapWidget: Modal -->
-    <div class="container">
-      <div class="modal">
-        <div class="modal-background"></div>
-        <div class="modal-card">
-          <header class="modal-card-head">
-            <p class="modal-card-title">Places: About</p>
-            <button class="delete" aria-label="close"></button>
-          </header>
-          <section class="modal-card-body">
-            <div class="content">
-              <h1>Title</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ex commodi placeat consectetur nulla ab facilis
-                vero earum odit aperiam veniam dolor voluptas aut ratione, eaque porro harum nisi aliquam! Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Vitae tempora, ullam iure reiciendis et eum atque praesentium magnam
-                ad, odio assumenda culpa, soluta tenetur! Quo tempore provident alias fuga modi? Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Labore rerum architecto nam reprehenderit distinctio dolor dignissimos non!
-                Odio quo alias maxime, dignissimos aliquid assumenda impedit, vero aspernatur nemo, esse praesentium?</p>
-              <h2>Another title</h2>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus at, beatae earum incidunt sunt ducimus architecto
-                inventore natus alias nesciunt possimus recusandae quaerat! Perspiciatis, praesentium rerum. Fugit ipsam
-                rerum nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita rerum molestiae soluta
-                harum, repudiandae doloremque eos illo. Omnis harum nostrum odio velit, quisquam, odit fugit totam, et fugiat
-                esse modi.</p>
-              <h1>Title</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ex commodi placeat consectetur nulla ab facilis
-                vero earum odit aperiam veniam dolor voluptas aut ratione, eaque porro harum nisi aliquam! Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Vitae tempora, ullam iure reiciendis et eum atque praesentium magnam
-                ad, odio assumenda culpa, soluta tenetur! Quo tempore provident alias fuga modi? Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Labore rerum architecto nam reprehenderit distinctio dolor dignissimos non!
-                Odio quo alias maxime, dignissimos aliquid assumenda impedit, vero aspernatur nemo, esse praesentium?</p>
-              <h2>Another title</h2>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus at, beatae earum incidunt sunt ducimus architecto
-                inventore natus alias nesciunt possimus recusandae quaerat! Perspiciatis, praesentium rerum. Fugit ipsam
-                rerum nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita rerum molestiae soluta
-                harum, repudiandae doloremque eos illo. Omnis harum nostrum odio velit, quisquam, odit fugit totam, et fugiat
-                esse modi.</p>
+        <!-- MapWidget: Modal -->
+        <div class="container">
+          <div class="modal" v-bind:class="{ 'is-active': showModal }">
+            <div class="modal-background" v-on:click="showModal=false"></div>
+            <div class="modal-card">
+              <header class="modal-card-head">
+                <p class="modal-card-title">Places: About</p>
+                <button class="delete" aria-label="close" v-on:click="showModal=false"></button>
+              </header>
+              <section class="modal-card-body">
+                <div class="content">
+                  <span v-html="modalHTML"></span>
+                </div>
+              </section>
             </div>
-          </section>
+          </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -224,7 +198,7 @@
     </div>
   </footer>
 
-  <script src="script.js "></script>
+  <script src="bundle.js"></script>
 </body>
 
 </html>

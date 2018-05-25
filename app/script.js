@@ -1,26 +1,16 @@
-$("#showModal").click(function() {
-  $(".modal").addClass("is-active");  
-});
+var markdown = require("markdown").markdown;
 
-$(".modal-background").click(function() {
-  $(".modal").removeClass("is-active");
-});
-
-$(".delete").click(function() {
-  $(".modal").removeClass("is-active");
-});
-
-// Based on: 
-// https://travishorn.com/interactive-maps-with-vue-leaflet-5430527353c8
 let vm = new Vue({
   el: '#map-widget',
   data: {
     map: null,
-    tileLayer: null,
     geoData: null,
+    tileLayer: null,
     features: null,
     currCityId: null,
     currSongIdx: 0,
+    modalHTML: '',
+    showModal: false,
   },
   computed: {
     currCity: function () {
@@ -33,7 +23,6 @@ let vm = new Vue({
       const lyrics = this.currCity.lyrics[this.currSongIdx];
       const re = new RegExp(this.currCity.name, "g");
       $el = $('<p>').append(lyrics);
-      // $el.html($el.html().replace(re, '<span style="background-color: yellow;"> $& </span>'));
       $el.html($el.html().replace(re, '<span class="has-background-warning">$&</span>'));
       $el.html($el.html().replace(/\n/g, '<br/>'));
       return $el.html();
@@ -41,11 +30,16 @@ let vm = new Vue({
   },
   mounted() {
     this.initMap();
-    $.getJSON('places.geojson', (geojson) => {
+    $.getJSON("data/places.geojson", (geojson) => {
       this.geoData = geojson;
       this.currCityId = this.geoData[0].properties.id;
       this.initFeatures();
     });
+    $.get("data/about_places.md", (input) => {
+      const result = markdown.toHTML(input);
+      console.log('loaded..');
+      this.modalHTML = result;
+    }, 'text');
   },
   watch: {
     currCityId: function (id) {
@@ -66,7 +60,7 @@ let vm = new Vue({
     initFeatures() {
       this.features = L.geoJson(this.geoData, {
         pointToLayer: (feature, latlng) => {
-          const circleOptions = { fillColor: "#ff7800", color: "#000", weight: 1, opacity: 1, fillOpacity: 0.7 };
+          const circleOptions = { fillColor: "#ff7800", color: "#000", weight: 1, opacity: 1, fillOpacity: 0.6 };
           const scale = d3.scaleSqrt().domain([1, 6]).range([4, 10]);
           const placeRadius = (place) => scale(place.properties.cnt);
           const circleMakerOptions = Object.assign(
