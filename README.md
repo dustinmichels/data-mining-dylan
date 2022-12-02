@@ -1,6 +1,19 @@
-# data-mining-dylan
+# Data Mining Dylan - webapp (gh-pages)
 
-This is a project I did in 2018, that involved scraping Dylan lyrics, and quantifying references to places.
+This is a Vue webapp that displays the results of my Dylan scraping.
 
-- `/analysis` -> Python code & jupyter notebooks related to web scraping and geo analysis.
-- `/webapp` -> A little Vue webapp to display the results.
+To build:
+
+```sh
+npm install
+npm install -g browserify
+browserify script.js -o bundle.js
+```
+
+Then serve `index.html` somewhere.
+
+To serve locally:
+
+```sh
+python -m http.server
+```

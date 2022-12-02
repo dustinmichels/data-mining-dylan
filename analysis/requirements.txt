@@ -1,3 +1,0 @@
-pandas
-spacy
-bokeh>=0.12.15
