@@ -1,4 +1,4 @@
-# Data Mining Dylan - webapp (gh-pages)
+# README
 
 This is a Vue webapp that displays the results of my Dylan scraping.
 
